@@ -1,0 +1,40 @@
+.popup-whatsapp {
+    display: none; /* Cambiar a 'block' para debug si el popup no aparece */
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 999;
+    transition: opacity 0.3s ease;
+}
+
+.popup-whatsapp.is-active-whatsapp-popup {
+    display: block;
+    opacity: 1;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 15px;
+    right: 16px;
+    background-color: #4cc370;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.float i {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.whatsapp-button:hover {
+    background-color: #3d9e5a;
+}
