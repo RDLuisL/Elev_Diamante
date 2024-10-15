@@ -341,6 +341,18 @@ h6,
     background-size: cover;
 }
 
+.page-header-trafic {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hero_trafic_1920x400.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-ciclotrafic {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hero_ciclotrafic_1920x400.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
