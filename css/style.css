@@ -226,7 +226,7 @@ h6,
 }
 
 .shadow-custom {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
 /* CSS para Aumenta del efecto del filtro(0)= sin efecto (1) = original (<1)= multiplicador*/
