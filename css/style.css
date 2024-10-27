@@ -539,6 +539,11 @@ h6,
     background: var(--primary);
 }
 
+/*** Counter ***/
+.counter-font {
+   font-size: 60px !important; 
+}
+
 
 /*** Appointment ***/
 .bootstrap-datetimepicker-widget.bottom {
