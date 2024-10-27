@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/gallery.css">
 </head>
 
 <body>
@@ -39,7 +40,6 @@
         <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
     </div>
     <!-- Spinner End -->
-
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
@@ -65,7 +65,6 @@
         </div>
     </div>
     <!-- Topbar End -->
-
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -98,51 +97,80 @@
     </nav>
     <!-- Navbar End -->
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown">Testimonial</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Testimonial</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Testimonial</h4>
-                <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
+        <!-- Gallery  -->
+        <div class="container-fluid service bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <p class="text-uppercase text-secondary mb-0" style="font-size: 14px;">
+                        <img src="img/race_flag_icon.png" alt="" style="width: 40px; margin-right: 10px;">
+                        Brillando en cada detalle
+                        <img src="img/race_flag_icon.png" alt="" style="width: 40px; margin-left: 10px;">
+                    </p>
+                    <h2 class="display-4 text-capitalize mb-3">Galería</h2>
+                    <h5>Conoce los algunos de los vehículos que hemos atendido con el esmero y profesionalismo que nos
+                        caracteriza.
+                    </h5>
+                </div>
+                <div id="gallery">
+                    <!-- 1st SEAT ATECA Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_121637349.jpg" alt="Pink and blue clouds at sunset. " title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 2nd L200 L200 Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG-20210224-WA0036.jpg" alt="Pink and blue clouds at sunset. " title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 3rd V40 Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG-20210607-WA0023.jpg"
+                            alt="Low angle view up into a sky filled with deep blue clouds. " title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 4th RAV4 Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_121749529.jpg" title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 5th PRADO Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_121958688.jpg">Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 6th A3 Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_122717351.jpg" alt="Clouds in shades of dark blue and magenta at sunset. "
+                            title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 7th OUTBACK Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_122745334.jpg" alt="Clouds in shades of blue and gold at sunrise. "
+                            title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 8th SANTA FE Pic -->
+                    <figure>
+                        <img src='/img/gallery/IMG_20210419_125348967.jpg' alt='clouds and sky during daytime' title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+                    <!-- 9th A5 Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210419_125401297.jpg" alt="white clouds and blue sky. " title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+    
+                    <!-- 11th CADILLAC DEVILLE Pic -->
+                    <figure>
+                        <img src="/img/gallery/IMG_20210421_100926077.jpg" alt="rainbow during daytime. " title="">
+                        <figcaption>Lorem ipsum dolor sit amet</figcaption>
+                    </figure>
+ 
+                </div>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-            </div>      
         </div>
-    </div>
-    <!-- Testimonial End -->
-        
+        <!-- Gallery End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
