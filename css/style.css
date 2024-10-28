@@ -29,6 +29,17 @@ h6,
     font-weight: 400 !important;
 }
 
+.btn-color {
+    background-color: var(--dark) !important;
+}
+.btn-text-color {
+    color: var(--dark) !important;
+}
+
+.no_deco_text{
+    text-decoration: none;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
