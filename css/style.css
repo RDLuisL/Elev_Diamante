@@ -343,8 +343,9 @@ h6,
 }
 
 .page-header-modern {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hero_bluep_elev_1920x400.png) center center no-repeat;
+    background: url(../img/hero_modernizacion_gabo.png) center center no-repeat;
     background-size: cover;
+    filter: brightness(150%);
 }
 
 .page-header-norm {
