@@ -66,6 +66,10 @@ h6,
     margin-right: -10px;
 }
 
+.nosotros-vineta {
+    list-style-type: none;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
