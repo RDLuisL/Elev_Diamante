@@ -137,6 +137,14 @@ h6,
     width: 75px;
 }
 
+.logo-contact {
+    height: 35px;
+}
+
+.logo-footer {
+    height: 25px;
+}
+
 /*** Navbar ***/
 .diamond-logo{
     width: 45px;
