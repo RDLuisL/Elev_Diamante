@@ -69,6 +69,13 @@ h6,
 .nosotros-vineta {
     list-style-type: none;
 }
+.border-30 {
+    border-color: #589AC4; /* Color del borde */
+    border-width: 5px !important; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    border-radius: 20px;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -139,6 +146,10 @@ h6,
 
 .logo-contact {
     height: 35px;
+}
+
+.logo-modernizacion {
+    height: 60px;
 }
 
 .logo-footer {
