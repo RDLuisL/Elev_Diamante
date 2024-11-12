@@ -76,6 +76,10 @@ h6,
     border-radius: 20px;
 }
 
+.color-blue {
+    color: #589AC4 !important;
+}
+
 
 /*** Spinner ***/
 #spinner {
