@@ -3,6 +3,7 @@
     --primary: #589AC4;
     --light: #F8F8F8;
     --dark: #589AC5;
+    --red: #EC1510;
 }
 
 h1,
@@ -40,6 +41,21 @@ h6,
     text-decoration: none;
 }
 
+.invert-horizontal {
+    transform: scaleX(-1);
+}
+
+.logo-sec {
+        filter: drop-shadow(5px 5px 10px rgba(249, 248, 248, 0.3)); /* X, Y, desenfoque, color */
+        width: 200px;
+}
+
+.logo-minvu {
+    filter: drop-shadow(5px 5px 10px rgba(249, 248, 248, 0.3)); /* X, Y, desenfoque, color */
+    width: 200px;
+    margin-top: 40px;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -47,6 +63,9 @@ h6,
     bottom: 200px; /* Distancia desde el borde inferior de la pantalla */
     z-index: 99;
     transition: opacity 0.3s ease; /* Para un efecto suave al aparecer/desaparecer */
+    background-color: var(--red) !important;
+    border: none !important;
+    border-radius: 0px 5px 5px 0px !important;
 }
 
 .back-to-top.show {
@@ -392,6 +411,11 @@ h6,
 
 .page-header-contact {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hero_contact_1920x400.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-control-acceso {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hero_control_acceso_1920x400.png) center center no-repeat;
     background-size: cover;
 }
 
