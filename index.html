@@ -40,10 +40,14 @@
     <link rel="stylesheet" href="/css/whatsapp.css">
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/styles_star.css"> -->
+
 </head>
 
 <body>
-    <!-- Spinner Start -->
+    <!-- Spinner Start ✔️-->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
@@ -53,28 +57,28 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
+    <!-- Topbar Start ✔️-->
     <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2 no-text-decor" href="tel:+56264657878" style="color: white !important">
-                        <img src="img/icons/phone_icon.png" class="logo-footer">
-                        +56264657878</a>
+            <div class="col-lg-7 px-3 text-start">
+                <div class="h-100 py-3 d-flex align-items-center">
+                    <img src="img/icons/phone_icon.png" class="logo-footer">
+                    <a class="text-body px-2 no-text-decor" href="tel:+56264657878" style="color: white !important">+56264657878</a>
                     <a class="text-body px-2 no-text-decor" href="tel:+56973966284"
-                        style="color: white !important"></i>+56973966284</a>
+                        style="color: white !important">+56973966284</a>
                     <a class="text-body px-2 no-text-decor" href="tel:+56955212659"
                         style="color: white !important">+56955212659</a>
+                    <img src="img/icons/email_icon.png" class="logo-footer">
+                        
                     <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl"
-                        style="color: white !important">
-                        <img src="img/icons/email_icon.png" class="logo-footer">
-                        servicios@elevadoresdiamante.cl</a>
+                        style="color: white !important">servicios@elevadoresdiamante.cl</a>
+                        
                     <!-- <a class="text-body px-2" href="mailto:info@example.com">administracion@elevadoresdiamante.cl</a> -->
                 </div>
             </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-2">
-                    <a class="text-body px-2 no-text-decor" href="term_cond.html" style="color: white !important">Terminos y
+            <div class="col-lg-5 px-0 text-end">
+                <div class="h-100 d-inline-flex py-3">
+                    <a class="px-2 no-text-decor justify-content-end " href="term_cond.html" style="color: white !important">Términos y
                         Condiciones</a>
                     <a class="text-body px-2" href="">Privacidad</a>
                 </div>
@@ -93,45 +97,43 @@
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
-        data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary fs-3 m-0"><img class="diamond-logo me-3" src="img/logo_elev_diam/elev_diam_ruben_logo.png"
-                style="width: 160px;"    alt="Icon"></h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
-                <a href="gallery.html" class="nav-item nav-link">Galeria</a>
-                <a href="faqs.html" class="nav-item nav-link">Preguntas Frecuentes</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="mantencion.html" class="dropdown-item">Mantenciones</a>
-                        <a href="normalizaciones.html" class="dropdown-item">Certificaciones</a>
-                        <a href="modernizaciones.html" class="dropdown-item">Modernizaciones</a>
-                        <a href="control_acceso.html" class="dropdown-item">Control de Acceso</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contactanos</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-2 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <img src="img/logo_elev_diam/elev_diam_ruben_logo.png" class="diamond-logo" style="width: 160px;" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto p-4 p-lg-0">
+            <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
+            <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+            <li class="nav-item"><a href="gallery.html" class="nav-link">Galería</a></li>
+            <li class="nav-item"><a href="faqs.html" class="nav-link">Preguntas Frecuentes</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mantencion.html" class="dropdown-item">Mantenciones</a></li>
+                    <li><a href="normalizaciones.html" class="dropdown-item">Certificaciones</a></li>
+                    <li><a href="modernizaciones.html" class="dropdown-item">Modernizaciones</a></li>
+                    <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contáctanos</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Navbar End -->
 
-    <!-- Hero -->
+    <!-- Hero ✔️ --> 
     <div class="hero">
         <video autoplay muted loop class="saturated-video">
-            <source src="/img/elevadores_diamante.mp4" type="video/mp4">
+            <source src="/video/elevadores_diamante.mp4" type="video/mp4">
         </video>
         <div class="hero-content d-flex flex-column justify-content-center align-items-center h-100 shadow-custom">
             <h1>Bienvenidos a nuestro Website</h1>
-            <p>"Elevando expectativas con soluciones seguras y confiables"</p>
+            <p>"Elevando expectativas con soluciones <br>seguras y confiables"</p>
         </div>
     </div>
     <!-- Hero End -->
@@ -228,161 +230,76 @@
     </div>
     <!-- Logo Slider End -->
 
-    <!-- Facts Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container pt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/elevador.png" class="logo" alt="Elevator Icon">
-                        </div>
-                        <h3 class="mb-3">Moderniza tus ascensores, revitaliza tú edificio.</h3>
-                        <h4 class="mb-0 text-justify-custom">
-                            Actualiza tu ascensor, rejuvenece tu edificio con un adecuadoflujo de personas.
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/downtime_logo.png" class="logo" alt="downtime logo">
-                        </div>
-                        <h3 class="mb-3">Minimiza el tiempo de inactividad</h3>
-                        <h4 class="mb-0 text-justify-custom">
-                            Con reparación, mantenimiento, modernización e instalación personalizada de
-                            ascensores de calidad superior. Planificación de presupuestos y programación proactiva para
-                            eliminar sorpresas y reducir tiempos de inactividad imprevistos.
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/24-7.png" class="logo" style="width: 115px;">
-                        </div>
-                        <h3 class="mb-3">Soporte Local Receptivo</h3>
-                        <h4 class="mb-0 text-justify-custom">
-                            Respuesta dedicada 24/7. Equipados para manejar cualquier situación en cualquier momento.
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Facts End -->
-
-    <!-- Nuestros Servicios Start -->
+    <!-- Nuestros Servicios Start ✔️-->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">// Nuestros Servicios //</h4>
                 <h1 class="display-5 mb-4">Soluciones Integrales para el Cuidado y Modernización de su Elevador</h1>
             </div>
-            <div class="row g-4">
+            <div class="row justify-content-between">
                 <!-- Mantenciones Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.1s">
                     <a href="mantencion.html" class="no_deco_text">
                         <div class="service-item d-flex position-relative text-center h-100">
                             <img class="bg-img" src="img/mant_elev_357x370.png" alt="">
-                            <div class="service-text p-5">
+                            <div class="service-text p-4">
                                 <img class="mb-4 logo" src="img/icons/tool_hand.png" alt="Icon">
                                 <h3 class="mb-3">Mantenciones</h3>
-                                <p class="mb-4 text-justify-custom">Para realizar la mantención
-                                    adecuada de un ascensor
-                                    requiere no sólo de
-                                    técnicos calificados, sino de
-                                    una estructura profesional
-                                    que está atenta al buen
-                                    desarrollo de cada
-                                    actividad con el objeto de
-                                    asegurar un servicio de
-                                    calidad óptima.
+                                <p class="mb-4 text-justify-custom">Para realizar la mantención adecuada de un ascensor
+                                    requiere no sólo de técnicos calificados, sino de una estructura profesional que 
+                                    está atenta al buen desarrollo de cada actividad con el objeto de asegurar un 
+                                    servicio de calidad óptima.
                                 </p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <!-- Mantenciones Card End -->
-
                 <!-- Modernización Card -->
-                <div class="col-lg-3 col-md-6 mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.15s">
                     <a href="modernizaciones.html" class="no_deco_text">
                         <div class="service-item d-flex position-relative text-center h-100">
                             <img class="bg-img" src="img/modern_elev_357x370.png" alt="">
-                            <div class="service-text p-5">
+                            <div class="service-text p-4">
                                 <img class="mb-4 logo" src="img/icons/modernization_icon_red.png" alt="Icon">
                                 <h3 class="mb-3">Modernizaciones</h3>
-                                <p class="mb-4 text-justify-custom">Elevadores Diamante
-                                    Spa. cuenta con una
-                                    variedad de productos
-                                    innovadores para
-                                    transformar su antiguo
-                                    ascensor en uno
-                                    moderno con la
-                                    aplicación de
-                                    tecnologías actuales
-                                    absolutamente
-                                    funcionales y seguras.
-                                </p>
+                                <p class="mb-4 text-justify-custom">Elevadores Diamante Spa. cuenta con una variedad de productos innovadores para transformar su antiguo ascensor en uno moderno con la aplicación de tecnologías actuales absolutamente funcionales y seguras.</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <!-- Modernización Card End -->
-
                 <!-- Certificaciones Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.2s">
                     <a href="normalizaciones.html" class="no_deco_text">
                         <div class="service-item d-flex position-relative text-center h-100">
                             <img class="bg-img" src="img/norm_elev_357x370.png" alt="">
-                            <div class="service-text p-5">
-                            <img class="mb-4 logo" src="img/icons/minvu_cert_logo.png" alt="Icon">
-                            <h3 class="mb-3">Certificaciones LEY 20.296</h3>
-                                <p class="mb-4 text-justify-custom">
-                                    Establece disposiciones
-                                    para la instalación,
-                                    mantención e inspección
-                                    periódica de los
-                                    ascensores y otras
-                                    instalaciones similares,
-                                    con el objeto de
-                                    garantizar un mayor
-                                    grado de seguridad tanto
-                                    para los usuarios, como
-                                    para los propios equipos
-                                    de elevación.
-                                </p>
+                            <div class="service-text p-4">
+                                <img class="mb-4 logo" src="img/icons/minvu_cert_logo.png" alt="Icon">
+                                <h3 class="mb-3">Certificaciones LEY 20.296</h3>
+                                <p class="mb-4 text-justify-custom">Establece disposiciones para la instalación, mantención e inspección periódica de los ascensores y otras instalaciones similares, con el objeto de garantizar un mayor grado de seguridad tanto para los usuarios, como para los propios equipos de elevación.</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <!-- Certificaciones Card End -->
-
                 <!-- Control de Acceso Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.25s">
                     <a href="normalizaciones.html" class="no_deco_text">
                         <div class="service-item d-flex position-relative text-center h-100">
-                            <img class="bg-img" src="img/norm_elev_357x370.png" alt="">
+                            <img class="bg-img" src="img/control_acceso.png" alt="">
                             <div class="service-text p-5">
-                            <img class="mb-4 logo" src="img/icons/control_acceso.png" alt="Icon">
-                            <h3 class="mb-3">Control de Acceso</h3>
-                                <p class="mb-4 text-justify-custom">
-                                    Debido a las Condicionesde seguridad
-                                    que vive nuestra sociedad debemos 
-                                    portegernos.
-                                </p>
+                                <img class="mb-4 logo" src="img/icons/control_acceso.png" alt="Icon">
+                                <h3 class="mb-3">Control de Acceso</h3>
+                                <p class="mb-4 text-justify-custom">Debido a las condiciones de seguridad que vive nuestra sociedad debemos protegernos.</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <!-- Certificaciones Card End -->
             </div>
         </div>
     </div>
     <!-- Nuestros Servicios End -->
 
-    <!-- Whatsapp Start -->
+    <!-- Whatsapp Start ✔️-->
     <div class="nav-bottom">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <div class="popup-whatsapp fadeIn">
@@ -413,8 +330,8 @@
     </div>
     <!-- Whatsapp End -->
 
-    <!-- Nosotros Start -->
-    <div class="container-xxl py-5">
+    <!-- Nosotros Start ✔️-->
+    <div class="container-xxl py-5 bg-light">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -453,131 +370,7 @@
     </div>
     <!-- Nosotros End -->
 
-    <!-- Productos Start -->
-    <!-- <div class="container-xxl project py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
-                <h4 class="section-title">// Nuestros Productos //</h4>
-                <h3 class="display-5 mb-4">
-                    Sistemas de Alta Confiabilidad y Tecnología Avanzada para la Modernización.</h3>
-                <h3 class="text-justify-custom text-justify-custom">Hemos creado sistemas altamente confiables,
-                    sencillos, de alta calidad y
-                    amigables empleando tecnologías ampliamente conocidas por el grueso de las empresas prestadoras de
-                    servicios, tomando en cuenta el cumplimiento de las leyes más actuales del país en esta materia, las
-                    que se emplean en las modernizaciones y cambios tecnológicos</h3>
-            </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-4">
-                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <h3 class="m-0 btn-text-color">01. TRAFIC</h3>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <h3 class="m-0 btn-text-color">02. CICLO-TRAFIC</h3>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
-                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <h3 class="m-0 btn-text-color">03.TRAFICommand</h3>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="tab-content w-100">
-                        <div class="tab-pane fade show active" id="tab-pane-1">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100"
-                                            src="img/trafic_357x370.png" style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h1 class="mb-3">Trafic<sup class="fs-6">PAT. PEND.</sup></h1>
-                                    <h4 class="mb-4 text-justify-custom">Diseñado especialmente para ascensores cuyos
-                                        motores aún funcionan
-                                        con 1 o 2 velocidades, hasta 1,3 m/s y no requieren de una regulación precisa de
-                                        su velocidad. Estos equipos se usan principalmente para transporte de carga o
-                                        bien de personas, con baja capacidad y poco tráfico debido al bajo, aunque
-                                        razonable “confort de viaje”.</h4>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Simplificación</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Innovación</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Previene Paradas Inesperadas</p>
-                                    <a href="trafic.html" class="btn btn-primary py-3 px-5 mt-3 fs-4 btn-color">Conozca más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-2">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100"
-                                            src="img/ciclo_trafic_357x370.png" style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h1 class="mb-3">Ciclotrafic<sup class="fs-6">PAT. PEND.</sup></h1>
-                                    <h4 class="mb-4 text-justify-custom">Diseñado con sistemas de control de velocidades
-                                        del motor de
-                                        tracción con variadores de frecuencia vectoriales. Se destacan por tener un
-                                        excelente “confort de viaje” y tener paradas muy suaves y de gran exactitud.
-                                        Este sistema se emplea en toda la gama de uso de los ascensores que van desde
-                                        los montacargas de baja velocidad hasta en edificios residenciales, hospitales,
-                                        oficinas con velocidades medias y altas y de alto tráfico.</h4>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Seguridad</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Confort</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Confiabilidad</p>
-                                    <a href="ciclotrafic.html" class="btn btn-primary py-3 px-5 mt-3 fs-4 btn-color">Conozca más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-3">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100"
-                                            src="img/trafic_command_357x370.png" style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h1 class="mb-3">TrafiCommand<sup class="fs-6">PAT. PEND.</sup></h1>
-                                    <h4 class="mb-4 text-justify-custom">Innovación y Durabilidad Este avanzado panel de control está
-                                        diseñado para entornos de alto uso, combinando funcionalidad, estilo y
-                                        seguridad. Sus botones están fabricados en acero inoxidable, preparados para
-                                        soportar un uso intensivo y recubiertos con un agente bactericida que garantiza
-                                        la máxima higiene en cada interacción. Botone de luces LED en forma de halo,
-                                        ofrecen una experiencia visual moderna y sofisticada.
-                                        <br>
-                                        Pantalla LED elegante y resistente. Retroiluminada ofrece una
-                                        resolución de 660x420 píxeles, permitiendo la creación de diseños 3D totalmente
-                                        personalizables, para una experiencia única en cada proyecto de
-                                        elevador.</h4>
-                                        </ph4-primary me-3">
-                                        <p><i class="fa fa-check text-primary me-3"></i>Elegancia</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i>Precisión</p>
-                                        <a href="traficommand.html" class="btn btn-primary py-3 px-5 mt-3 fs-4 btn-color">Conozca más</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-4">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-4.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Productos End -->
-
-    <!-- Feature Start -->
+    <!-- Feature Start ✔️-->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -660,17 +453,19 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="img/about-2.jpg" alt="">
-                        <img class="img-fluid" src="img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="img/services_24-7.png" alt="">
+                        <video class="img-fluid" autoplay muted loop class="saturated-vide">
+                            <source src="/video/3d_elevator.mp4" type="video/mp4">
+                        </video>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </div>
     <!-- Feature End -->
 
-    <!-- Appointment Start -->
-    <div class="container-xxl py-5">
+    <!-- Appointment Start ✔️-->
+    <div class="container-xxl py-5 bg-light">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -726,7 +521,7 @@
                             </select>
                         </div>
                         <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
+                            <select class="form-select" style="height: 55px; margin-bottom: 15px;">
                                 <option selected>Elije una Comuna</option>
                                 <option value="1">Cerrillos</option>
                                 <option value="2">Cerro Navia</option>
@@ -760,7 +555,7 @@
                                 <option value="11">Vitacura</option>
                             </select>
                         </div>
-                        <div class="col-12 col-sm-6">
+                        <!-- <div class="col-12 col-sm-6">
                             <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
                                 <input type="text" class="form-control datetimepicker-input"
                                     data-target="#datetimepicker1" placeholder="Elije una fecha"
@@ -769,9 +564,9 @@
                                     data-toggle="datetimepicker">
                                     <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="col-12">
+                        <div class="col-12" style="margin-bottom: 15px;"">
                             <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
                         </div>
                         <div class="col-12">
@@ -784,7 +579,7 @@
     </div>
     <!-- Appointment End -->
 
-    <!-- Footer Start -->
+    <!-- Footer Start ✔️-->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -818,10 +613,11 @@
                     
                     <img src="img/logos/MINVU_logo.png" class="logo-minvu">
                 </div>
-                <p style="color: white" >Versión 6.5</p>
+                <p style="color: white" >Versión 7.1</p>
             </div>
         </div>
-        <div class="container-fluid copyright">
+        <!-- VISITAS START -->
+        <!-- <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
                     <h4>Numero de visitantes</h4>
@@ -835,7 +631,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <!-- VISITAS END -->
     </div>
     <!-- Footer End -->
 

@@ -1,9 +1,16 @@
 /********** Template CSS **********/
 :root {
     --primary: #589AC4;
-    --light: #F8F8F8;
+    --light: #f8f8f8;
     --dark: #589AC5;
     --red: #EC1510;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 h1,
@@ -97,6 +104,11 @@ h6,
 
 .color-blue {
     color: #589AC4 !important;
+}
+
+.gap-btw {
+    display: flex;
+    row-gap: 10px;
 }
 
 
@@ -273,12 +285,12 @@ h6,
 }
 
 .hero-content h1 {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .hero-content p {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
 }
 
@@ -389,7 +401,7 @@ h6,
 }
 
 .page-header-modern {
-    background: url(../img/hero_modernizacion_gabo.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/gabo_mant_hero_1920x600.png) center center no-repeat;
     background-size: cover;
     filter: brightness(150%);
 }
@@ -419,10 +431,6 @@ h6,
     background-size: cover;
 }
 
-
-
-
-
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
@@ -435,7 +443,6 @@ h6,
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-
 
 /*** Facts ***/
 .fact-item .fact-icon {
@@ -466,6 +473,26 @@ h6,
 
 
 /*** About & Feature ***/
+.feature-img {
+    position: relative; /* Necesario para que el video y la imagen se posicionen correctamente */
+}
+
+.feature-img img {
+    position: relative; /* Asegura que la imagen esté en el mismo contexto */
+    z-index: 1; /* Imagen detrás del video */
+}
+
+.feature-img video {
+    position: absolute; /* Video encima de la imagen */
+    top: 200px;
+    right: 70px;
+    width: 60%;
+    height: 80%;
+    z-index: 2; /* Mayor que la imagen */
+    object-fit: cover; /* Asegura que el video cubra el contenedor */
+    pointer-events: none; /* Opcional: para evitar que el video bloquee interacciones con elementos detrás */
+}
+
 .about-img,
 .feature-img {
     position: relative;
@@ -498,31 +525,48 @@ h6,
     z-index: -1;
 }
 
+/*** Service Start ***/
+.row {
+    /* gap: 0px; Añade espacio entre las tarjetas */
+}
 
-/*** Service ***/
+.card-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-item:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta en hover */
+}
+
 .service-item .bg-img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    border-radius: 10px;
 }
 
 .service-item .service-text {
     background: var(--light);
-    transition: .5s;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .service-item:hover .service-text {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
 .service-item * {
-    transition: .5;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .service-item:hover * {
     color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
 }
 
 .service-item .btn {
@@ -534,12 +578,16 @@ h6,
     background: #FFFFFF;
     white-space: nowrap;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .service-item:hover .btn {
     width: 140px;
+    border-radius: 10px;
 }
+
+/*** Service End ***/
 
 
 /*** Project ***/
