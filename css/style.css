@@ -111,6 +111,9 @@ h6,
     row-gap: 10px;
 }
 
+.hero-text-shadow {
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
 
 /*** Spinner ***/
 #spinner {
@@ -307,7 +310,9 @@ h6,
     filter: hue-rotate(300deg) !important; /*HUE grados (DEG)*/
 }
 
-
+.icon-size {
+    width: 70px;
+}
 
 
 /*** Header ***/
