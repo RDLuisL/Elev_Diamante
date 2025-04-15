@@ -43,7 +43,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="/css/styles_star.css"> -->
-
+    
 </head>
 
 <body>
@@ -140,7 +140,6 @@
         </div>
     </div>
     <!-- Hero End -->
-
 
     <!-- Logo Slider ✔️-->
     <div class="container-fluid service bg-light py-5">
@@ -335,7 +334,7 @@
     <!-- Whatsapp End -->
 
     <!-- Nosotros Start ✔️-->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="about">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -646,34 +645,8 @@
     </a>
     <script src="/lib/backtop.js"></script>
     <!-- Backtop End -->
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker1').datetimepicker({
-                format: 'L' // Este formato es para fecha, si necesitas fecha y hora puedes usar 'L LT'
-            });
-        });
-    </script>
-
-    <!-- Whatsapp Script -->
-    <script src="/js/whatsapp.js"></script>
-    <!-- Whatsapp Script End -->
-
+</main>
     <!-- Tempus Dominus -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet"
@@ -684,56 +657,43 @@
         src="https://cdn.jsdelivr.net/npm/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js"></script>
     <script src="https://kit.fontawesome.com/1c2cfa22fa.js" crossorigin="anonymous"></script>
 
-</main>
-<!-- Scroll Start -->
-<div class="scroll-container justify-content-center">
-    <div class="scroll-pill">
-      <div class="scroll-dot"></div>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker({
+                    format: 'L' // Este formato es para fecha, si necesitas fecha y hora puedes usar 'L LT'
+                });
+            }); 
+        </script>
+    
+        <!-- Whatsapp Script -->
+        <script src="/js/whatsapp.js"></script>
+        <!-- Whatsapp Script End -->
+
+    <!-- Scroll Start -->
+    <div class="scroll-container justify-content-center">
+        <div class="scroll-pill">
+            <div class="scroll-dot"></div>
+        </div>
     </div>
-  </div>
-  
-  <style>
-    .scroll-container {
-      position: fixed; /* CAMBIO CLAVE */
-      bottom: 2rem;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999; /* Asegura que esté por encima del contenido */
-      opacity: 0.4; /* Lo que pediste */
-      pointer-events: none; /* No bloquea clics en otras secciones */
-    }
-  
-    .scroll-pill {
-      width: 35px;
-      height: 64px;
-      border-radius: 24px;
-      border: 4px solid #ED1411;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 8px;
-    }
-  
-    .scroll-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background-color: #ED1411;
-      animation: bounce 1.5s infinite ease-in-out;
-    }
-  
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(24px);
-      }
-    }
-  </style>
-  
+    <!-- Scroll End -->
+
+        <script src="/js/scrollpill.js"></script>
+
 </body>
 
 </html>

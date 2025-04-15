@@ -41,6 +41,16 @@
     <link rel="stylesheet" href="/css/whatsapp.css">
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
+
+    <style>
+        @media only screen and (max-width: 768px) {
+          .contacto-info-ajustada {
+            margin:0 0 20px -80px;
+          }
+        }
+      </style>
+      
+
 </head>
 
 <body>
@@ -94,33 +104,31 @@
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar Start ✔️-->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
-        data-wow-delay="0.1s">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-2 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary fs-3 m-0"><img class="diamond-logo me-3" src="img/logo_elev_diam/elev_diam_ruben_logo.png"
-                style="width: 160px;"    alt="Icon"></h1>
+            <img src="img/logo_elev_diam/elev_diam_ruben_logo.png" class="diamond-logo" style="width: 160px;" alt="Logo">
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0 d-flex align-items-center">
-                <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
-                <a href="gallery.html" class="nav-item nav-link">Galeria</a>
-                <a href="faqs.html" class="nav-item nav-link">Preguntas Frecuentes</a>
-                <div class="nav-item dropdown">
+            <ul class="navbar-nav ms-auto p-4 p-lg-0">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="mantencion.html" class="dropdown-item">Mantención</a>
-                        <a href="normalizaciones.html" class="dropdown-item">Certificación</a>
-                        <a href="Modernización.html" class="dropdown-item">Modernización</a>
-                        <a href="control_acceso.html" class="dropdown-item">Control de Acceso</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">CONTÁCTANOS</a>
-            </div>
+                    <ul class="dropdown-menu">
+                        <li><a href="mantencion.html" class="dropdown-item">Mantención</a></li>
+                        <li><a href="normalizaciones.html" class="dropdown-item">Certificación</a></li>
+                        <li><a href="Modernización.html" class="dropdown-item">Modernización</a></li>
+                        <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Galería</a></li>
+                <li class="nav-item"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a></li>
+                <li class="nav-item"><a href="/juego/index.html" class="nav-link" target="_blank">El Juego</a></li>
+            </ul>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -131,148 +139,117 @@
             <h1 class="display-1 text-white animated slideInDown">Contáctanos</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Contacto</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Mapa</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" style="text-decoration: none;" href="#contactanos">Contacto</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" style="text-decoration: none;" href="#maps">Mapa</a></li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-    <!-- Appointment Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">// Contáctanos //</h4>
-                    <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
-                    <h4 class="mb-4 text-justify-custom">Estamos aquí para ayudarte con todas tus necesidades de
-                        elevación. Ya sea que
-                        busques asesoría, necesites un servicio de mantenimiento, modernización de equipos, o
-                        simplemente tengas alguna consulta, nuestro equipo de expertos está a tu disposición.
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                                    style="width: 65px; height: 65px;">
-
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Llámanos</p>
-                                    <h3 class="mb-0"><a class="text-body px-2 no-text-decor" href="tel:+56264657878"><i
-                                                class="fa fa-phone-alt text-primary me-2"></i>+56264657878</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                                    style="width: 65px; height: 65px;">
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Envianos un correo ahora</p>
-                                    <h3 class="mb-0">
-                                        <i class="fa fa-envelope-open text-primary me-2"></i>
-                                        <a class="text-body px-2 no-text-decor"
-                                            href="mailto:servicios@elevadoresdiamante.cl">servicios@elevadoresdiamante.cl</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<!-- Contacto y Mapa en una fila responsiva -->
+<div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Appointment Start -->
+        <div class="col-lg-6" id="contactanos">
+          <h4 class="section-title">// Contáctanos //</h4>
+          <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
+          <h4 class="mb-4 text-justify-custom">
+            Estamos aquí para ayudarte con todas tus necesidades de elevación. Ya sea que busques asesoría, necesites un servicio de mantenimiento, modernización de equipos, o simplemente tengas alguna consulta, nuestro equipo de expertos está a tu disposición.
+          </h4>
+  
+          <div class="row g-4 contacto-info-ajustada">
+            <div class="col-12">
+              <div class="d-flex">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;"></div>
+                <div class="ms-4">
+                  <p class="mb-2">Llámanos</p>
+                  <h3 class="mb-0">
+                    <a class="text-body px-2 no-text-decor" href="tel:+56264657878">
+                      <i class="fa fa-phone-alt text-primary me-2"></i>+56264657878
+                    </a>
+                  </h3>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Tú Nombre" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Tú Email" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Tú Teléfono" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Elije un Servicio</option>
-                                <option value="1">Mantención</option>
-                                <option value="2">Modernización</option>
-                                <option value="3">Otro</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Elije una Comuna</option>
-                                <option value="1">Cerrillos</option>
-                                <option value="2">Cerro Navia</option>
-                                <option value="3">Conchalí</option>
-                                <option value="4">El Bosque</option>
-                                <option value="5">Estación Central</option>
-                                <option value="6">Huechuraba</option>
-                                <option value="7">Independencia</option>
-                                <option value="8">La Cisterna</option>
-                                <option value="9">La Florida</option>
-                                <option value="10">La Granja</option>
-                                <option value="11">La Pintana</option>
-                                <option value="12">La Reina</option>
-                                <option value="13">Las Condes</option>
-                                <option value="14">Lo Barnechea</option>
-                                <option value="4">Lo Espejo</option>
-                                <option value="5">Lo Prado</option>
-                                <option value="6">Macul</option>
-                                <option value="7">Ñuñoa</option>
-                                <option value="8">Peñalolén</option>
-                                <option value="9">Providencia</option>
-                                <option value="10">Pudahuel</option>
-                                <option value="11">Quilicura</option>
-                                <option value="5">Quinta Normal</option>
-                                <option value="6">Recoleta</option>
-                                <option value="7">Renca</option>
-                                <option value="8">San Joaquín</option>
-                                <option value="9">San Miguel</option>
-                                <option value="10">San Ramón</option>
-                                <option value="11">Santiago</option>
-                                <option value="11">Vitacura</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input"
-                                    data-target="#datetimepicker1" placeholder="Elije una fecha"
-                                    style="height: 55px;" />
-                                <div class="input-group-append" data-target="#datetimepicker1"
-                                    data-toggle="datetimepicker">
-                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Envíalo</button>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col-12">
+              <div class="d-flex">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;"></div>
+                <div class="ms-4">
+                  <p class="mb-2">Envianos un correo ahora</p>
+                  <h3 class="mb-0">
+                    <i class="fa fa-envelope-open text-primary me-2"></i>
+                    <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl">servicios@elevadoresdiamante.cl</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Formulario -->
+          <div class="row g-3 mt-4">
+            <div class="col-12 col-sm-6">
+              <input type="text" class="form-control" placeholder="Tú Nombre" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-6">
+              <input type="email" class="form-control" placeholder="Tú Email" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-6">
+              <input type="text" class="form-control" placeholder="Tú Teléfono" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-6">
+              <select class="form-select" style="height: 55px;">
+                <option selected>Elije un Servicio</option>
+                <option value="1">Mantención</option>
+                <option value="2">Modernización</option>
+                <option value="3">Otro</option>
+              </select>
+            </div>
+            <div class="col-12 col-sm-6">
+              <select class="form-select" style="height: 55px;">
+                <option selected>Elije una Comuna</option>
+                <option value="1">Cerrillos</option>
+                <option value="2">Cerro Navia</option>
+                <option value="3">Conchalí</option>
+                <!-- y más opciones aquí... -->
+              </select>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" placeholder="Elije una fecha" style="height: 55px;" />
+                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary w-100 py-3" type="submit">Envíalo</button>
+            </div>
+          </div>
         </div>
+  
+        <!-- Google Map -->
+        <div class="col-lg-6" id="maps">
+          <div class="h-100">
+            <iframe 
+              class="w-100 h-100"
+              style="min-height: 450px; border:0;"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.189835732912!2d-70.62274372486271!3d-33.42582342631706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c58fb123dcd7%3A0x37c246cfd5a3bdfd!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses!2scl!4v1697207763176!5m2!1ses!2scl"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Appointment End -->
+  </div>
+  
 
-    <!-- Google Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <iframe 
-            class="w-100 mb-n2" 
-            style="height: 450px;" 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.189835732912!2d-70.62274372486271!3d-33.42582342631706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c58fb123dcd7%3A0x37c246cfd5a3bdfd!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses!2scl!4v1697207763176!5m2!1ses!2scl"
-            frameborder="0" 
-            allowfullscreen="" 
-            aria-hidden="false" 
-            tabindex="0">
-        </iframe>
-    </div>
-    <!-- Google Map End -->
 
     <!-- Footer Start ✔️-->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
@@ -348,6 +325,17 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Scroll Start -->
+    <div class="scroll-container justify-content-center">
+        <div class="scroll-pill">
+            <div class="scroll-dot"></div>
+        </div>
+    </div>
+    <!-- Scroll End -->
+
+    <script src="/js/scrollpill.js"></script>
+
 </body>
 
 </html>
