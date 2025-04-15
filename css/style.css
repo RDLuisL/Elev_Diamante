@@ -20,7 +20,7 @@ body { /* O el selector del elemento al que quieres aplicar el fondo */
     height: 100%;
     background: url('/img/back_ground_1920xꝏ.webp') center center no-repeat;
     background-size: fit;
-    opacity: 0.25; /* Ajusta este valor para la transparencia del fondo */
+    opacity: 0.35; /* Ajusta este valor para la transparencia del fondo */
     z-index: -1; /* Asegura que el fondo esté detrás del contenido */
   }
 
