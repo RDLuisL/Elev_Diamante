@@ -6,12 +6,23 @@
     --red: #EC1510;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    height: auto;
-}
+body { /* O el selector del elemento al que quieres aplicar el fondo */
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    /* Otros estilos que ya tengas para el body */
+  }
+  
+  body::before { /* O usa ::after si lo prefieres */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/img/back_ground_1920xꝏ.webp') center center no-repeat;
+    background-size: fit;
+    opacity: 0.25; /* Ajusta este valor para la transparencia del fondo */
+    z-index: -1; /* Asegura que el fondo esté detrás del contenido */
+  }
 
 h1,
 h2,
@@ -78,6 +89,12 @@ h6,
 .back-to-top.show {
     display: block; /* Mostrar el botón cuando sea necesario */
     opacity: 1;
+}
+
+.white-shadow {
+    text-shadow: 
+    2px 2px 4px white, /* Primera sombra */
+    -2px -2px 6px white; /* Segunda sombra */
 }
 
 .no-text-decor {

@@ -1,7 +1,7 @@
 1) Preguntar a Arisbel si quiere que llamen por los tres telefono o por whatsapp o como?
 2) Preguntar a Arisbel cuales redes sociales tienen, instagram, facebook, linkedin, x?
 3) Cambiar el logo del Navbar por el que no tiene borde blanco en las letras
-4) hacer los iconos para Certificaciones
+4) hacer los iconos para Certificación
 5) arreglar el Navbar
 6) hacer el icono de visitas de la pagina en el footer
 7) actualizar el footer en todas las visitas
