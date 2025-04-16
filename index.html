@@ -108,8 +108,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ms-auto p-4 p-lg-0">
-                <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
-                <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item link-hover"><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li class="nav-item link-hover"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
                     <ul class="dropdown-menu">
@@ -119,11 +119,11 @@
                         <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="gallery.html" class="nav-link">Galería</a></li>
-                <li class="nav-item"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a></li>
+                <li class="nav-item link-hover"><a href="gallery.html" class="nav-link">Galería</a></li>
+                <li class="nav-item link-hover"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a></li>
                 
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contáctanos</a></li>
-                <li class="nav-item"><a href="/juego/index.html" class="nav-link" target="_blank">El Juego</a></li>
+                <li class="nav-item link-hover"><a href="contact.html" class="nav-link">Contáctanos</a></li>
+                <li class="nav-item link-hover"><a href="/juego/index.html" class="nav-link" target="_blank">El Juego</a></li>
             </ul>
         </div>
     </nav>
@@ -474,118 +474,87 @@
     <!-- Feature End -->
 
     <!-- Appointment Start ✔️-->
-    <div class="container-xxl py-5 bg-light">
+    <div class="container-xxl py-5 mt-5">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">// CONTÁCTANOS //</h4>
-                    <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
-                    <h4 class="mb-4 text-justify-custom">Estamos aquí para ayudarte con todas tus necesidades de
-                        elevación. Ya sea que
-                        busques asesoría, necesites un servicio de mantenimiento, modernización de equipos, o
-                        simplemente tengas alguna consulta, nuestro equipo de expertos está a tu disposición.
-                    </h4>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="ms-4">
-                                    <p class="mb-2">Llámanos</p>
-                                    <h3 class="mb-0"><a class="text-body px-2 no-text-decor" href="tel:+56264657878">
-                                        <img src="img/icons/phone_icon.png" class="logo-contact">
-                                        +56264657878</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="ms-4">
-                                    <p class="mb-2">Envianos un correo ahora</p>
-                                    <h3 class="mb-0">
-                                        <img src="img/icons/email_icon.png" class="logo-contact">
-                                        <a class="text-body px-2 no-text-decor"
-                                            href="mailto:servicios@elevadoresdiamante.cl">servicios@elevadoresdiamante.cl</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
+          <div class="row g-5 align-items-start">
+            <!-- Contáctanos -->
+            <div class="col-lg-6 order-1 order-lg-1 wow fadeInUp" data-wow-delay="0.1s">
+              <h4 class="section-title">// CONTÁCTANOS //</h4>
+              <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
+              <h4 class="mb-4 text-justify-custom">
+                Estamos aquí para ayudarte con todas tus necesidades de elevación...
+              </h4>
+      
+              <div class="row g-4">
+                <div class="col-12">
+                  <div class="d-flex">
+                    <div class="ms-4">
+                      <p class="mb-2">Llámanos</p>
+                      <h3 class="mb-0">
+                        <a class="text-body px-2 no-text-decor" href="tel:+56264657878">
+                          <img src="img/icons/phone_icon.png" class="logo-contact">
+                          +56264657878
+                        </a>
+                      </h3>
                     </div>
+                  </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Tú Nombre" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Tú Email" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Tú Teléfono" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Elije un Servicio</option>
-                                <option value="1">Mantención</option>
-                                <option value="2">Modernización</option>
-                                <option value="3">Otro</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px; margin-bottom: 15px;">
-                                <option selected>Elije una Comuna</option>
-                                <option value="1">Cerrillos</option>
-                                <option value="2">Cerro Navia</option>
-                                <option value="3">Conchalí</option>
-                                <option value="4">El Bosque</option>
-                                <option value="5">Estación Central</option>
-                                <option value="6">Huechuraba</option>
-                                <option value="7">Independencia</option>
-                                <option value="8">La Cisterna</option>
-                                <option value="9">La Florida</option>
-                                <option value="10">La Granja</option>
-                                <option value="11">La Pintana</option>
-                                <option value="12">La Reina</option>
-                                <option value="13">Las Condes</option>
-                                <option value="14">Lo Barnechea</option>
-                                <option value="4">Lo Espejo</option>
-                                <option value="5">Lo Prado</option>
-                                <option value="6">Macul</option>
-                                <option value="7">Ñuñoa</option>
-                                <option value="8">Peñalolén</option>
-                                <option value="9">Providencia</option>
-                                <option value="10">Pudahuel</option>
-                                <option value="11">Quilicura</option>
-                                <option value="5">Quinta Normal</option>
-                                <option value="6">Recoleta</option>
-                                <option value="7">Renca</option>
-                                <option value="8">San Joaquín</option>
-                                <option value="9">San Miguel</option>
-                                <option value="10">San Ramón</option>
-                                <option value="11">Santiago</option>
-                                <option value="11">Vitacura</option>
-                            </select>
-                        </div>
-                        <!-- <div class="col-12 col-sm-6">
-                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input"
-                                    data-target="#datetimepicker1" placeholder="Elije una fecha"
-                                    style="height: 55px;" />
-                                <div class="input-group-append" data-target="#datetimepicker1"
-                                    data-toggle="datetimepicker">
-                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                </div>
-                            </div> -->
-                        </div>
-                        <div class="col-12" style="margin-bottom: 15px;"">
-                            <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn-pill" data-set-floor="0" style="font-size: 25px;"  type="submit"><strong>Envíalo</strong></button>
-                        </div>
+                <div class="col-12">
+                  <div class="d-flex">
+                    <div class="ms-4">
+                      <p class="mb-2">Envíanos un correo ahora</p>
+                      <h3 class="mb-0">
+                        <img src="img/icons/email_icon.png" class="logo-contact">
+                        <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl">
+                          servicios@elevadoresdiamante.cl
+                        </a>
+                      </h3>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+      
+            <!-- Formulario -->
+            <div class="col-lg-6 order-2 order-lg-2 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="row g-3">
+                <div class="col-12 col-sm-6">
+                  <input type="text" class="form-control" placeholder="Tu Nombre" style="height: 55px;">
+                </div>
+                <div class="col-12 col-sm-6">
+                  <input type="email" class="form-control" placeholder="Tu Email" style="height: 55px;">
+                </div>
+                <div class="col-12 col-sm-6">
+                  <input type="text" class="form-control" placeholder="Tu Teléfono" style="height: 55px;">
+                </div>
+                <div class="col-12 col-sm-6">
+                  <select class="form-select" style="height: 55px;">
+                    <option selected>Elije un Servicio</option>
+                    <option value="1">Mantención</option>
+                    <option value="2">Modernización</option>
+                    <option value="3">Otro</option>
+                  </select>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <select class="form-select" style="height: 55px; margin-bottom: 15px;">
+                    <option selected>Elije una Comuna</option>
+                    <!-- comunas aquí... -->
+                  </select>
+                </div>
+                <div class="col-12" style="margin-bottom: 15px;">
+                  <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn-pill" type="submit" style="font-size: 25px;">
+                    <strong>Envíalo</strong>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      
     <!-- Appointment End -->
 
     <!-- Footer Start ✔️-->
