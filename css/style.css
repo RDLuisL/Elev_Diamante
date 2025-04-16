@@ -480,7 +480,7 @@ h6,
 }
 
 .page-header-re-ingenieria {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/re-ingenieria_1920x400.jpg) center center no-repeat;
+    background: url(../img/re-ingenieria_1920x400.jpg) center center no-repeat;
     background-size: cover;
 }
 
