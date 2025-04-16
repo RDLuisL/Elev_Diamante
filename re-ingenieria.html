@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="/css/whatsapp.css">
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
+    <link rel="stylesheet" href="/css/modal.css">
 </head>
 
 <body>
@@ -140,8 +141,19 @@
     </div>
     <!-- Page Header End -->
 
+    <!-- Modal Start-->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="fs-5">Disculpa las molestias, esta vista no está disponible en este momento.</p>
+          <img class="modal-img" src="/img/en_construccion.jpg" alt="Elevador en construcción">
+          <button id="goHome">Volver al inicio</button>
+        </div>
+    </div>
+    <!-- Modal End -->
+
     <!-- Mantención de Ascensores Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -192,154 +204,8 @@
             </div>
                     
         </div>
-    </div>
+    </div> -->
     <!-- Mantención de Ascensores End -->
-
-    <!-- Mantención Preventiva Start -->
-    <div class="container-xxl py-5 bg-light" id="preventiva">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-img">
-                        <p>ANOTACION: AGREGAR LINEAS AZULES DE FONDO</p>
-                        <img class="img-fluid" src="/img/mantencion/5.jpg" alt="">
-                        <img class="img-fluid" src="/img/mantencion/23.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">// Prevenir //</h4>
-                    <h1 class="display-5 mb-4">Servicios de Mantención Preventiva</h1>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-
-                                <div class="ms-4">
-                                    <h4 class="text-justify-custom">Los ascensores se componen de
-                                        muchas partes mecánicas, eléctricas,
-                                        electromecánicas, electrónicas y de otra
-                                        índole que están sujetas a desgaste por
-                                        su funcionamiento y averías por fatigas
-                                        de material o bien circunstancias ajenas
-                                        al uso normal del equipo.</h4>
-                                    <h4>
-                                        La prevención es parte de la seguridad,
-                                        por esta razón ponemos a disposición
-                                        un servicio donde el foco principal es
-                                        prevenir dichas averías evitando 
-                                        paralizaciones molestas. La prevención 
-                                        también evita daños mayores a partes y 
-                                        piezas de los equipos y su reemplazo a 
-                                        tiempo de manera programada.</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Mantención Preventiva End -->
-
-    <!-- Mantención Correctiva Start -->
-    <div class="container-xxl py-5" id="correctiva">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h4 class="section-title">// corregir //</h4>
-                        <h1 class="display-5 mb-4">Servicios de Mantención Correctiva</h1>
-                        <div class="row g-4">
-                            <div class="col-12">
-                                <div class="d-flex align-items-start">
-                                    <div class="ms-4">
-                                        <h4 class="text-justify-custom">Producto del desgaste normal por el uso cotidiano, o por avería no
-                                            prevista, por lo general se necesita recambio de partes y piezas
-                                            por lo que los equipos requieren de reparaciones, o reemplazo de
-                                            componentes.</h4>
-                                        <h4 class="text-justify-custom">
-                                            Elevadores Diamante realiza esta actividad de manera eficiente y
-                                            con la debida rapidez con el acompañamiento de informes
-                                            previos y común acuerdo con la comunidad o administración.
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-img">
-                            <img class="img-fluid" src="/img/mantencion/7.jpg" alt="">
-                            <img class="img-fluid" src="/img/mantencion/16.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <!-- Mantención Correctiva End -->
-
-    <!-- Serv Atencion de Emergencia Start -->
-    <div class="container-xxl py-5 bg-light" id="emergencia">
-                    <div class="container">
-                        <div class="row g-5">
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="feature-img">
-                                    <img class="img-fluid" src="/img/mantencion/10.jpg" alt="">
-                                    <img class="img-fluid" src="/img/mantencion/32.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <h4 class="section-title">// emergencia //</h4>
-                                <h1 class="display-5 mb-4">Servicios de Atención de Emergencia</h1>
-                                <div class="row g-4">
-                                    <div class="col-12">
-                                        <div class="d-flex align-items-start">
-            
-                                            <div class="ms-4">
-                                                <h4 class="text-justify-custom">Las emergencias no tienen horario, 
-                                                    es por eso que nuestro servicio de 
-                                                    emergencia opera las 24 horas, los
-                                                     365 días del año y con la debida
-                                                      rapidez.</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    </div>
-    <!-- Serv Atencion de Emergencia End -->
-
-    <!-- Serv Reparaciones Menores Start -->
-    <div class="container-xxl py-5" id="menores">
-                    <div class="container">
-                        <div class="row g-5">
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <h4 class="section-title">// reparaciones //</h4>
-                                <h1 class="display-5 mb-4">Servicio de Reparaciones Menores</h1>
-                                <div class="row g-4">
-                                    <div class="col-12">
-                                        <div class="d-flex align-items-start">
-                                            <div class="ms-4 text-justify-custom">
-                                                <h4>Debido a diferentes razones los equipos deben
-                                                    someterse a reparaciones menores para resolver
-                                                     averías puntuales. Para eso se requiere de 
-                                                     manos expertas que logren solucionar con eficiencia 
-                                                     y plazos cortos lo que sea necesario.</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="feature-img">
-                                    <img class="img-fluid" src="/img/mantencion/20.jpg" style="object-position: right; transform: scaleX(-1)" alt="">
-                                    <img class="img-fluid" src="/img/mantencion/15-1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    </div>
-    <!-- Serv Reparaciones Menores End -->
 
     <!-- Footer Start ✔️-->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
@@ -424,6 +290,7 @@
         <!-- Scroll End -->
     
             <script src="/js/scrollpill.js"></script>
+            <script src="/js/modal.js"></script>
     
 </body>
 

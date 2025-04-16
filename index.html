@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman:wght@400;700&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman:wght@400;700&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -44,46 +46,49 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="/css/styles_star.css"> -->
     <link rel="stylesheet" href="/css/elev-buttons.css">
+    <link rel="stylesheet" href="/css/counter.css">
 </head>
 
 <body>
     <main>
-    <!-- Spinner Start ✔️-->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
-        </div>
-        <img class="diamond-logo position-absolute top-50 start-50 translate-middle" src="img/logo_elev_diam/elev_diam_logo_cir_black.png"
-          style="width: 80px;"  alt="Icon">
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Topbar Start ✔️-->
-    <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-3 text-start">
-                <div class="h-100 py-3 d-flex align-items-center">
-                    <img src="img/icons/phone_icon.png" class="logo-footer">
-                    <a class="text-body px-2 no-text-decor" href="tel:+56264657878" style="color: white !important">+56264657878</a>
-                    <a class="text-body px-2 no-text-decor" href="tel:+56996198247"
-                        style="color: white !important">+56996198247</a>
-                    <a class="text-body px-2 no-text-decor" href="tel:+56955212659"
-                        style="color: white !important">+56955212659</a>
-                    <img src="img/icons/email_icon.png" class="logo-footer">
-                        
-                    <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl"
-                        style="color: white !important">servicios@elevadoresdiamante.cl</a>
-                        
-                    <!-- <a class="text-body px-2" href="mailto:info@example.com">administracion@elevadoresdiamante.cl</a> -->
-                </div>
+        <!-- Spinner Start ✔️-->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
             </div>
-            <div class="col-lg-5 px-0 text-end">
-                <div class="h-100 d-inline-flex py-3">
-                    <a class="px-2 no-text-decor justify-content-end " href="term_cond.html" style="color: white !important">Términos y
-                        Condiciones</a>
-                    <a class="text-body px-2" href="">Privacidad</a>
+            <img class="diamond-logo position-absolute top-50 start-50 translate-middle"
+                src="img/logo_elev_diam/elev_diam_logo_cir_black.png" style="width: 80px;" alt="Icon">
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start ✔️-->
+        <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-3 text-start">
+                    <div class="h-100 py-3 d-flex align-items-center">
+                        <img src="img/icons/phone_icon.png" class="logo-footer">
+                        <a class="text-body px-2 no-text-decor" href="tel:+56264657878"
+                            style="color: white !important">+56264657878</a>
+                        <a class="text-body px-2 no-text-decor" href="tel:+56996198247"
+                            style="color: white !important">+56996198247</a>
+                        <a class="text-body px-2 no-text-decor" href="tel:+56955212659"
+                            style="color: white !important">+56955212659</a>
+                        <img src="img/icons/email_icon.png" class="logo-footer">
+
+                        <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl"
+                            style="color: white !important">servicios@elevadoresdiamante.cl</a>
+
+                        <!-- <a class="text-body px-2" href="mailto:info@example.com">administracion@elevadoresdiamante.cl</a> -->
+                    </div>
                 </div>
-                <!-- <div class="h-100 d-inline-flex align-items-center">
+                <div class="col-lg-5 px-0 text-end">
+                    <div class="h-100 d-inline-flex py-3">
+                        <a class="px-2 no-text-decor justify-content-end " href="term_cond.html"
+                            style="color: white !important">Términos y
+                            Condiciones</a>
+                        <a class="text-body px-2" href="">Privacidad</a>
+                    </div>
+                    <!-- <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square btn-outline-body me-1 btn-primary btn-color1" href=""><i
                             class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-sm-square btn-outline-body me-1 btn-primary btn-color" href=""><i
@@ -93,351 +98,366 @@
                     <a class="btn btn-sm-square btn-outline-body me-0 btn-primary btn-color" href=""><i
                             class="fab fa-instagram"></i></a>
                 </div> -->
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Topbar End -->
+        <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-2 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <img src="img/logo_elev_diam/elev_diam_ruben_logo.png" class="diamond-logo" style="width: 160px;" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ms-auto p-4 p-lg-0">
-                <li class="nav-item link-hover"><a href="index.html" class="nav-link active">Inicio</a></li>
-                <li class="nav-item link-hover"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mantencion.html" class="dropdown-item">Mantención</a></li>
-                        <li><a href="normalizaciones.html" class="dropdown-item">Certificación</a></li>
-                        <li><a href="Modernización.html" class="dropdown-item">Modernización</a></li>
-                        <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item link-hover"><a href="gallery.html" class="nav-link">Galería</a></li>
-                <li class="nav-item link-hover"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a></li>
-                
-                <li class="nav-item link-hover"><a href="contact.html" class="nav-link">Contáctanos</a></li>
-                <li class="nav-item link-hover"><a href="/juego/index.html" class="nav-link" target="_blank">El Juego</a></li>
-            </ul>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-2 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <img src="img/logo_elev_diam/elev_diam_ruben_logo.png" class="diamond-logo" style="width: 160px;"
+                    alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto p-4 p-lg-0">
+                    <li class="nav-item link-hover"><a href="index.html" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item link-hover"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mantencion.html" class="dropdown-item">Mantención</a></li>
+                            <li><a href="normalizaciones.html" class="dropdown-item">Certificación</a></li>
+                            <li><a href="Modernización.html" class="dropdown-item">Modernización</a></li>
+                            <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item link-hover"><a href="gallery.html" class="nav-link">Galería</a></li>
+                    <li class="nav-item link-hover"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a>
+                    </li>
+
+                    <li class="nav-item link-hover"><a href="contact.html" class="nav-link">Contáctanos</a></li>
+                    <li class="nav-item link-hover"><a href="/juego/index.html" class="nav-link" target="_blank">El
+                            Juego</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero ✔️ -->
+        <div class="hero">
+            <video autoplay muted loop class="saturated-video">
+                <source src="/video/elevadores_diamante.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content d-flex flex-column justify-content-center align-items-center h-100 shadow-custom">
+                <h1>Bienvenidos a nuestro Website</h1>
+                <p>"Elevando expectativas con soluciones <br>seguras y confiables"</p>
+            </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <!-- Hero End -->
 
-    <!-- Hero ✔️ --> 
-    <div class="hero">
-        <video autoplay muted loop class="saturated-video">
-            <source src="/video/elevadores_diamante.mp4" type="video/mp4">
-        </video>
-        <div class="hero-content d-flex flex-column justify-content-center align-items-center h-100 shadow-custom">
-            <h1>Bienvenidos a nuestro Website</h1>
-            <p>"Elevando expectativas con soluciones <br>seguras y confiables"</p>
-        </div>
-    </div>
-    <!-- Hero End -->
-
-    <!-- Logo Slider ✔️-->
-    <div class="container-fluid service bg-light py-5">
-                <div class="container py-5">
-                    <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                        <h3 class="text-capitalize mb-1">Marcas en las que hemos servido con dedicación</h3>
+        <!-- Logo Slider ✔️-->
+        <div class="container-fluid service bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-2 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h3 class="text-capitalize mb-1">Marcas en las que hemos servido con dedicación</h3>
+                </div>
+            </div>
+            <div id="logo-slider">
+                <div id="logo-slide-track">
+                    <div id="logoSlide">
+                        <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/KONE.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/Otis-Logo-500x313.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/schindler-logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/BLT_logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/atlas.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/westinghouse.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/KONE.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/Otis-Logo-500x313.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/schindler-logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/BLT_logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/atlas.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/westinghouse.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/KONE.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/Otis-Logo-500x313.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/schindler-logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/BLT_logo.png" />
+                    </div>
+                    <div id="logoSlide">
+                        <img src="/img/logos/atlas.png" />
                     </div>
                 </div>
-                <div id="logo-slider">
-                    <div id="logo-slide-track">
-                        <div id="logoSlide">
-                            <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/KONE.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/Otis-Logo-500x313.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/schindler-logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/BLT_logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/atlas.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/westinghouse.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/KONE.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/Otis-Logo-500x313.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/schindler-logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/BLT_logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/atlas.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/westinghouse.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/Hyundai_Elevator_logo.svg.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/KONE.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/mitsubishi-elevator-india-p-ltd-bhubaneshwar-kl2iv.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/Otis-Logo-500x313.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/schindler-logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/ThyssenKrupp-Logo-640x400.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/BLT_logo.png" />
-                        </div>
-                        <div id="logoSlide">
-                            <img src="/img/logos/atlas.png" />
-                        </div>
-                    </div>
-                </div>
-    </div>
-    <!-- Logo Slider End -->
-
-    <!-- Nuestros Servicios Start ✔️-->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">// Nuestros Servicios //</h4>
-                <h1 class="display-5 mb-4">Soluciones Integrales para el Cuidado y Modernización de su Elevador</h1>
-            </div>
-            <div class="row justify-content-between">
-                <!-- Mantención Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.1s">
-                    <a href="mantencion.html" class="no_deco_text">
-                        <div class="service-item d-flex position-relative text-center h-100">
-                            <img class="bg-img" src="img/mant_elev_357x370.png" alt="">
-                            <div class="service-text p-4">
-                                <img class="mb-4 logo" src="img/icons/tool_hand.png" alt="Icon">
-                                <h3 class="mb-3">Mantención</h3>
-                                <p class="mb-4 text-justify-custom">Para realizar la mantención adecuada de un ascensor
-                                    requiere no sólo de técnicos calificados, sino de una estructura profesional que 
-                                    está atenta al buen desarrollo de cada actividad con el objeto de asegurar un 
-                                    servicio de calidad óptima.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- Modernización Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.15s">
-                    <a href="Modernización.html" class="no_deco_text">
-                        <div class="service-item d-flex position-relative text-center h-100">
-                            <img class="bg-img" src="img/modern_elev_357x370.png" alt="">
-                            <div class="service-text p-4">
-                                <img class="mb-4 logo" src="img/icons/modernization_icon_red.png" alt="Icon">
-                                <h3 class="mb-3">Modernización</h3>
-                                <p class="mb-4 text-justify-custom">Elevadores Diamante SpA. cuenta con una variedad de productos innovadores para transformar su antiguo ascensor en uno moderno con la aplicación de tecnologías actuales absolutamente funcionales y seguras.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- Certificación Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.2s">
-                    <a href="normalizaciones.html" class="no_deco_text">
-                        <div class="service-item d-flex position-relative text-center h-100">
-                            <img class="bg-img" src="img/norm_elev_357x370.png" alt="">
-                            <div class="service-text p-4">
-                                <img class="mb-4 logo" src="img/icons/minvu_cert_logo.png" alt="Icon">
-                                <h3 class="mb-3">Certificación LEY 20.296</h3>
-                                <p class="mb-4 text-justify-custom">Establece disposiciones para la instalación, mantención e inspección periódica de los ascensores y otras instalaciones similares, con el objeto de garantizar un mayor grado de seguridad tanto para los usuarios, como para los propios equipos de elevación.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- Control de Acceso Card -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.25s">
-                    <a href="control_acceso.html" class="no_deco_text">
-                        <div class="service-item d-flex position-relative text-center h-100">
-                            <img class="bg-img" src="img/control_acceso.png" alt="">
-                            <div class="service-text p-5">
-                                <img class="mb-4 logo" src="img/icons/control_acceso.png" alt="Icon">
-                                <h3 class="mb-3">Control de Acceso</h3>
-                                <p class="mb-4 text-justify-custom">Debido a las condiciones de seguridad que vive nuestra sociedad debemos protegernos.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             </div>
         </div>
-    </div>
-    <!-- Nuestros Servicios End -->
+        <!-- Logo Slider End -->
 
-    <!-- Whatsapp Start ✔️-->
-    <div class="nav-bottom">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <div class="popup-whatsapp fadeIn">
-            <div class="content-whatsapp -top">
-                <button type="button" class="closePopup">
-                    <i class="material-icons icon-font-color">close</i>
-                </button>
-                <p>
-                    <img src="img/icons/Ruben.png" width="50" /> Hola, Te escribe Ruben, ¿En
-                    que puedo ayudarte?
-                </p>
-            </div>
-            <div class="content-whatsapp -bottom">
-                <input class="whats-input" id="whats-in" type="text" placeholder="Enviar mensaje..." />
-                <button class="send-msPopup" id="send-btn" type="button">
-                    <i class="material-icons icon-font-color--black">send</i>
-                </button>
-            </div>
-        </div>
-        <button type="button" id="whats-openPopup" class="whatsapp-button">
-            <div class="float">
-                <i class="fa fa-whatsapp my-float"></i>
-            </div>
-        </button>
-        <div class="circle-anime"></div>
-    </div>
-    <!-- Whatsapp End -->
-
-    <!-- Nosotros Start ✔️-->
-    <div class="container-xxl py-5" id="about">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="img/fosa_320x490.png" alt="">
-                        <img class="img-fluid" src="img/elev_ent_320x490.png" alt="">
-                    </div>
+        <!-- Nuestros Servicios Start ✔️-->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h4 class="section-title">// Nuestros Servicios //</h4>
+                    <h1 class="display-5 mb-4">Soluciones Integrales para el Cuidado y Modernización de su Elevador</h1>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">// Nosotros //</h4>
-                    <h1 class="display-5 mb-4">Innovación y Experiencia que Elevan Confianza</h1>
-                    <h4 class="text-justify-custom">Elevadores Diamante SpA. surge respaldado por más de 30 años de
-                        experiencia de un equipo de
-                        profesionales y técnicos especializados, cuya trayectoria ha marcado una tendencia tecnológica a
-                        nivel internacional.</h4>
-                    <h4 class="mb-4 text-justify-custom">Nuestro objetivo es traer esta innovación a Chile para seguir
-                        ofreciendo servicios
-                        confiables en el mantenimiento, reparación, modernización y normalización de equipos de
-                        elevación, abarcando una amplia gama de marcas disponibles en el mercado.
-                    </h4>
-                    <div class="d-flex align-items-center mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border-30"
-                            style="width: 120px; height: 120px;">
-                            <h1 class="counter-font">+</h1><h1 class="display-1 mb-n2 counter-font text-black" data-toggle="counter-up">30</h1>
-                        </div>
-                        <div class="ps-4">
-                            <h3>Años</h3>
-                            <h3>de</h3>
-                            <h3 class="mb-0">Experiencia</h3>
-                        </div>
-                    </div>
-
-                    <div class="buttons">
-                        <div class="btn-container bottom">
-                          <a href="nosotros.html"><button class="btn-pill" data-set-floor="0" style="font-size: 25px;"><strong>Conozca<br>más</strong></button></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Nosotros End -->
-
-    <!-- Feature Start ✔️-->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">¿POR QUÉ ELEGIR A ELEVADORES DIAMANTE?</h4>
-                    <h1 class="display-5 mb-4">Confia en manos expertas</h1>
-                    <p class="mb-4">Reconocida reputación de servicio excepcional al cliente</p>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 logo" src="img/icons/ingenieria_icon.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Ingeniería</h3>
-                                    <p class="mb-0">Sólido equipo de soporte de ingeniería.</p>
+                <div class="row justify-content-between">
+                    <!-- Mantención Card -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.1s">
+                        <a href="mantencion.html" class="no_deco_text">
+                            <div class="service-item d-flex position-relative text-center h-100">
+                                <img class="bg-img" src="img/mant_elev_357x370.png" alt="">
+                                <div class="service-text p-4">
+                                    <img class="mb-4 logo" src="img/icons/tool_hand.png" alt="Icon">
+                                    <h3 class="mb-3">Mantención</h3>
+                                    <p class="mb-4 text-justify-custom">Para realizar la mantención adecuada de un
+                                        ascensor
+                                        requiere no sólo de técnicos calificados, sino de una estructura profesional que
+                                        está atenta al buen desarrollo de cada actividad con el objeto de asegurar un
+                                        servicio de calidad óptima.
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 logo" src="img/icons/serv_personalizado.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Servicio Personalizado</h3>
-                                    <p class="mb-0">Un gerente de servicios asignado para asesorar de forma 
-                                        personalizada y recibir tus inquietudes relativas a resolver problemas, 
-                                        realizar mejoras y planificar las necesidades de tus ascensores.</p>
+                        </a>
+                    </div>
+                    <!-- Modernización Card -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.15s">
+                        <a href="Modernización.html" class="no_deco_text">
+                            <div class="service-item d-flex position-relative text-center h-100">
+                                <img class="bg-img" src="img/modern_elev_357x370.png" alt="">
+                                <div class="service-text p-4">
+                                    <img class="mb-4 logo" src="img/icons/modernization_icon_red.png" alt="Icon">
+                                    <h3 class="mb-3">Modernización</h3>
+                                    <p class="mb-4 text-justify-custom">Elevadores Diamante SpA. cuenta con una variedad
+                                        de productos innovadores para transformar su antiguo ascensor en uno moderno con
+                                        la aplicación de tecnologías actuales absolutamente funcionales y seguras.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 logo" src="img/icons/conocimiento_icon.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Conocimiento</h3>
-                                    <p class="mb-0">Técnicos de elevadores altamente capacitados, certificados y 
-                                        con amplia experiencia.</p>
+                        </a>
+                    </div>
+                    <!-- Certificación Card -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.2s">
+                        <a href="normalizaciones.html" class="no_deco_text">
+                            <div class="service-item d-flex position-relative text-center h-100">
+                                <img class="bg-img" src="img/norm_elev_357x370.png" alt="">
+                                <div class="service-text p-4">
+                                    <img class="mb-4 logo" src="img/icons/minvu_cert_logo.png" alt="Icon">
+                                    <h3 class="mb-3">Certificación LEY 20.296</h3>
+                                    <p class="mb-4 text-justify-custom">Establece disposiciones para la instalación,
+                                        mantención e inspección periódica de los ascensores y otras instalaciones
+                                        similares, con el objeto de garantizar un mayor grado de seguridad tanto para
+                                        los usuarios, como para los propios equipos de elevación.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 logo" src="img/icons/innovacion_icon.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Innovación</h3>
-                                    <p class="mb-0">Proveemos soluciones adaptadas a distintos requerimientos
-                                        y condiciones de nuestros clientes, teniendo en cuenta ideas innovadoras 
-                                        que dan realce a todo el sistema, ya sea en lo tecnológico como en la 
-                                        estética.</p>
+                        </a>
+                    </div>
+                    <!-- Control de Acceso Card -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp card-item" data-wow-delay="0.25s">
+                        <a href="control_acceso.html" class="no_deco_text">
+                            <div class="service-item d-flex position-relative text-center h-100">
+                                <img class="bg-img" src="img/control_acceso.png" alt="">
+                                <div class="service-text p-5">
+                                    <img class="mb-4 logo" src="img/icons/control_acceso.png" alt="Icon">
+                                    <h3 class="mb-3">Control de Acceso</h3>
+                                    <p class="mb-4 text-justify-custom">Debido a las condiciones de seguridad que vive
+                                        nuestra sociedad debemos protegernos.</p>
                                 </div>
                             </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nuestros Servicios End -->
+
+        <!-- Whatsapp Start ✔️-->
+        <div class="nav-bottom">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top">
+                    <button type="button" class="closePopup">
+                        <i class="material-icons icon-font-color">close</i>
+                    </button>
+                    <p>
+                        <img src="img/icons/Ruben.png" width="50" /> Hola, Te escribe Ruben, ¿En
+                        que puedo ayudarte?
+                    </p>
+                </div>
+                <div class="content-whatsapp -bottom">
+                    <input class="whats-input" id="whats-in" type="text" placeholder="Enviar mensaje..." />
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </div>
+            </button>
+            <div class="circle-anime"></div>
+        </div>
+        <!-- Whatsapp End -->
+
+        <!-- Nosotros Start ✔️-->
+        <div class="container-xxl py-5" id="about">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img">
+                            <img class="img-fluid" src="img/fosa_320x490.png" alt="">
+                            <img class="img-fluid" src="img/elev_ent_320x490.png" alt="">
                         </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 logo" src="img/icons/24-7.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Atención 24/7</h3>
-                                    <p class="mb-0">Técnicos disponibles 24/7 para atender rápidamente las 
-                                        emergencias en cualquier
-                                        momento del día o de la noche.
-                                        <br>
-                                        Para:
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h4 class="section-title">// Nosotros //</h4>
+                        <h1 class="display-5 mb-4">Innovación y Experiencia que Elevan Confianza</h1>
+                        <h4 class="text-justify-custom">Elevadores Diamante SpA. surge respaldado por más de 30 años de
+                            experiencia de un equipo de
+                            profesionales y técnicos especializados, cuya trayectoria ha marcado una tendencia
+                            tecnológica a
+                            nivel internacional.</h4>
+                        <h4 class="mb-4 text-justify-custom">Nuestro objetivo es traer esta innovación a Chile para
+                            seguir
+                            ofreciendo servicios
+                            confiables en el mantenimiento, reparación, modernización y normalización de equipos de
+                            elevación, abarcando una amplia gama de marcas disponibles en el mercado.
+                        </h4>
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center border-30"
+                                style="width: 120px; height: 120px;">
+                                <h1 class="counter-font">+</h1>
+                                <h1 class="display-1 mb-n2 counter-font text-black" data-toggle="counter-up">30</h1>
+                            </div>
+                            <div class="ps-4">
+                                <h3>Años</h3>
+                                <h3>de</h3>
+                                <h3 class="mb-0">Experiencia</h3>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <div class="btn-container bottom">
+                                <a href="nosotros.html"><button class="btn-pill" data-set-floor="0"
+                                        style="font-size: 25px;"><strong>Conozca<br>más</strong></button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nosotros End -->
+
+        <!-- Feature Start ✔️-->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">¿POR QUÉ ELEGIR A ELEVADORES DIAMANTE?</h4>
+                        <h1 class="display-5 mb-4">Confia en manos expertas</h1>
+                        <p class="mb-4">Reconocida reputación de servicio excepcional al cliente</p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0 logo" src="img/icons/ingenieria_icon.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Ingeniería</h3>
+                                        <p class="mb-0">Sólido equipo de soporte de ingeniería.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0 logo" src="img/icons/serv_personalizado.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Servicio Personalizado</h3>
+                                        <p class="mb-0">Un gerente de servicios asignado para asesorar de forma
+                                            personalizada y recibir tus inquietudes relativas a resolver problemas,
+                                            realizar mejoras y planificar las necesidades de tus ascensores.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0 logo" src="img/icons/conocimiento_icon.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Conocimiento</h3>
+                                        <p class="mb-0">Técnicos de elevadores altamente capacitados, certificados y
+                                            con amplia experiencia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0 logo" src="img/icons/innovacion_icon.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Innovación</h3>
+                                        <p class="mb-0">Proveemos soluciones adaptadas a distintos requerimientos
+                                            y condiciones de nuestros clientes, teniendo en cuenta ideas innovadoras
+                                            que dan realce a todo el sistema, ya sea en lo tecnológico como en la
+                                            estética.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0 logo" src="img/icons/24-7.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Atención 24/7</h3>
+                                        <p class="mb-0">Técnicos disponibles 24/7 para atender rápidamente las
+                                            emergencias en cualquier
+                                            momento del día o de la noche.
+                                            <br>
+                                            Para:
                                         <ul>
                                             <li>
                                                 Edificios residenciales
@@ -451,149 +471,167 @@
                                             <li>
                                                 Edificios industriales
                                             </li>
-                                        </ul>    
-                                    </p>
+                                        </ul>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-img">
-                        <img class="img-fluid" src="img/services_24-7.png" alt="">
-                        <video class="img-fluid" autoplay muted loop class="saturated-vide">
-                            <source src="/video/3d_elevator.mp4" type="video/mp4">
-                        </video>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-img">
+                            <img class="img-fluid" src="img/services_24-7.png" alt="">
+                            <video class="img-fluid" autoplay muted loop class="saturated-vide">
+                                <source src="/video/3d_elevator.mp4" type="video/mp4">
+                            </video>
+                        </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Feature End -->
+        <!-- Feature End -->
 
-    <!-- Appointment Start ✔️-->
-    <div class="container-xxl py-5 mt-5">
-        <div class="container">
-          <div class="row g-5 align-items-start">
-            <!-- Contáctanos -->
-            <div class="col-lg-6 order-1 order-lg-1 wow fadeInUp" data-wow-delay="0.1s">
-              <h4 class="section-title">// CONTÁCTANOS //</h4>
-              <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
-              <h4 class="mb-4 text-justify-custom">
-                Estamos aquí para ayudarte con todas tus necesidades de elevación...
-              </h4>
-      
-              <div class="row g-4">
-                <div class="col-12">
-                  <div class="d-flex">
-                    <div class="ms-4">
-                      <p class="mb-2">Llámanos</p>
-                      <h3 class="mb-0">
-                        <a class="text-body px-2 no-text-decor" href="tel:+56264657878">
-                          <img src="img/icons/phone_icon.png" class="logo-contact">
-                          +56264657878
-                        </a>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="d-flex">
-                    <div class="ms-4">
-                      <p class="mb-2">Envíanos un correo ahora</p>
-                      <h3 class="mb-0">
-                        <img src="img/icons/email_icon.png" class="logo-contact">
-                        <a class="text-body px-2 no-text-decor" href="mailto:servicios@elevadoresdiamante.cl">
-                          servicios@elevadoresdiamante.cl
-                        </a>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <!-- Formulario -->
-            <div class="col-lg-6 order-2 order-lg-2 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="row g-3">
-                <div class="col-12 col-sm-6">
-                  <input type="text" class="form-control" placeholder="Tu Nombre" style="height: 55px;">
-                </div>
-                <div class="col-12 col-sm-6">
-                  <input type="email" class="form-control" placeholder="Tu Email" style="height: 55px;">
-                </div>
-                <div class="col-12 col-sm-6">
-                  <input type="text" class="form-control" placeholder="Tu Teléfono" style="height: 55px;">
-                </div>
-                <div class="col-12 col-sm-6">
-                  <select class="form-select" style="height: 55px;">
-                    <option selected>Elije un Servicio</option>
-                    <option value="1">Mantención</option>
-                    <option value="2">Modernización</option>
-                    <option value="3">Otro</option>
-                  </select>
-                </div>
-                <div class="col-12 col-sm-6">
-                  <select class="form-select" style="height: 55px; margin-bottom: 15px;">
-                    <option selected>Elije una Comuna</option>
-                    <!-- comunas aquí... -->
-                  </select>
-                </div>
-                <div class="col-12" style="margin-bottom: 15px;">
-                  <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-                </div>
-                <div class="col-12">
-                  <button class="btn-pill" type="submit" style="font-size: 25px;">
-                    <strong>Envíalo</strong>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    <!-- Appointment End -->
+        <!-- Appointment Start ✔️-->
+        <div class="container-xxl py-5 mt-5">
+            <div class="container">
+                <div class="row g-5 align-items-start">
+                    <!-- Contáctanos -->
+                    <div class="col-lg-6 order-1 order-lg-1 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">// CONTÁCTANOS //</h4>
+                        <h1 class="display-5 mb-4">Haz una cita con nosotros</h1>
+                        <h4 class="mb-4 text-justify-custom">
+                            Estamos aquí para ayudarte con todas tus necesidades de elevación...
+                        </h4>
 
-    <!-- Footer Start ✔️-->
-    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Dirección:</h3>
-                    <p class="mb-2 text-white"><img src="img/icons/place_icon.png" class="logo-footer me-3"></i>AV PROVIDENCIA N°
-                        1208, DEPTO 1603 </p>
-                    <p class="mb-2 text-white"><img src="img/icons/phone_icon.png" class="logo-footer me-4">+56 9 5521 2659</p>
-                    <p class="mb-2 text-white"><img src="img/icons/email_icon.png" class="logo-footer me-3">info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="ms-4">
+                                        <p class="mb-2">Llámanos</p>
+                                        <h3 class="mb-0">
+                                            <a class="text-body px-2 no-text-decor" href="tel:+56264657878">
+                                                <img src="img/icons/phone_icon.png" class="logo-contact">
+                                                +56264657878
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="ms-4">
+                                        <p class="mb-2">Envíanos un correo ahora</p>
+                                        <h3 class="mb-0">
+                                            <img src="img/icons/email_icon.png" class="logo-contact">
+                                            <a class="text-body px-2 no-text-decor"
+                                                href="mailto:servicios@elevadoresdiamante.cl">
+                                                servicios@elevadoresdiamante.cl
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario -->
+                    <div class="col-lg-6 order-2 order-lg-2 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control" placeholder="Tu Nombre" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control" placeholder="Tu Email" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control" placeholder="Tu Teléfono" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select" style="height: 55px;">
+                                    <option selected>Elije un Servicio</option>
+                                    <option value="1">Mantención</option>
+                                    <option value="2">Modernización</option>
+                                    <option value="3">Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select" style="height: 55px; margin-bottom: 15px;">
+                                    <option selected>Elije una Comuna</option>
+                                    <!-- comunas aquí... -->
+                                </select>
+                            </div>
+                            <div class="col-12" style="margin-bottom: 15px;">
+                                <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn-pill" type="submit" style="font-size: 25px;">
+                                    <strong>Envíalo</strong>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Servicios</h3>
-                    <a class="btn btn-link" href="">Mantención</a>
-                    <a class="btn btn-link" href="">Normalización</a>
-                    <a class="btn btn-link" href="">Modernización</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Productos</h3>
-                    <a class="btn btn-link" href="">Trafic</a>
-                    <a class="btn btn-link" href="">CicloTrafic</a>
-                    <a class="btn btn-link" href="">TraficDrive</a>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                    <img src="img/logos/SEC_logo.png" class="logo-sec">
-                    
-                    <img src="img/logos/MINVU_logo.png" class="logo-minvu">
-                </div>
-                <p style="color: white" >Versión 7.5</p>
             </div>
         </div>
-        <!-- VISITAS START -->
-        <!-- <div class="container-fluid copyright">
+
+        <!-- Appointment End -->
+
+        <!-- Footer Start ✔️-->
+        <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Dirección:</h3>
+                        <p class="mb-2 text-white"><img src="img/icons/place_icon.png" class="logo-footer me-3"></i>AV
+                            PROVIDENCIA N°
+                            1208, DEPTO 1603 </p>
+                        <p class="mb-2 text-white"><img src="img/icons/phone_icon.png" class="logo-footer me-4">+56 9
+                            5521 2659</p>
+                        <p class="mb-2 text-white"><img src="img/icons/email_icon.png"
+                                class="logo-footer me-3">info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-body me-0" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6">
+                        <p style="color: white">Versión 8.5</p>
+                        <p style="color: white;">por:</p>
+                        <a href="http://www.luislunatech.com" target="_blank">
+                            <img src="img/lluna_sign_white.png" style="width: 150px; margin-top:px;" alt="">
+                        </a>
+                    </div>
+
+                    <div class="panel-wrapper">
+                        <!-- Imagen de fondo del panel -->
+                        <img class="background-image" src="/img/tablero_visitantes.png" alt="Tablero visitantes">
+                      
+                        <!-- SVG Flechas superpuestas -->                        
+                        <svg class="svg-flechas" viewBox="0 0 595.28 841.89" xmlns="http://www.w3.org/2000/svg">
+                           <path fill="#1A9CC5" class="flecha-shadow flecha-parpadea" d="M66.979,426.654c-2.038,1.634-3.676,5.379-6.685,3.379c-2.358-1.566-2.055-5.223-1.563-8.021c0.356-2.027,0.8-58.466,0.384-61.454c-0.011-2.347-0.021-4.693-0.032-7.04c1.068-2.209,93.134-93.818,100.265-99.694c0.571,0.232,85.504,85.313,99.874,99.677c-0.049,1.874-0.236,52.85-0.28,76.462c-2.141,1.153-3.342-0.336-4.786-1.545c-3.351-2.804-52.473-53.603-59.949-59.575c-1.617,1.102-0.792,2.757-0.81,4.132c-0.092,7.357-0.009,147.004,0.011,209.469l-0.068,0.098c-4.523-0.027-49.427-0.271-67.357-0.365c-0.063-2.189-0.099-211.59-0.242-213.143c-0.112-1.211-0.873-1.551-1.971-0.937C119.625,372.564,67.098,426.56,66.979,426.654z"/>
+                          
+                          <path fill="#1A9CC5" opacity="0.5" d="M527.812,413.507c2.038-1.633,3.676-5.378,6.685-3.378c2.359,1.567,2.055,5.223,1.563,8.022c-0.356,2.027-0.799,58.465-0.384,61.454c0.011,2.347,0.022,4.693,0.032,7.04c-1.068,2.209-93.134,93.817-100.265,99.693c-0.571-0.231-85.505-85.313-99.874-99.676c0.049-1.875,0.236-52.85,0.279-76.464c2.141-1.152,3.342,0.337,4.786,1.545c3.351,2.804,52.474,53.602,59.948,59.576c1.617-1.103,0.793-2.757,0.811-4.132c0.092-7.357,0.01-147.004-0.011-209.469l0.067-0.097c4.523,0.026,49.427,0.271,67.357,0.365c0.063,2.189,0.099,211.589,0.242,213.142c0.111,1.211,0.872,1.551,1.971,0.938C475.166,467.598,527.693,413.603,527.812,413.507z"/>
+                        </svg>
+                        <!-- Contador de Visitas -->
+                        <div class="visit-counter">
+                            <div class="visit-count" id="visit-count"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                        <img src="img/logos/SEC_logo.png" class="logo-sec">
+
+                        <img src="img/logos/MINVU_logo.png" class="logo-minvu">
+                    </div>
+                    <script src="/js/counter-visits.js" defer></script>
+                </div>
+            </div>
+            <!-- VISITAS START -->
+            <!-- <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
                     <h4>Numero de visitantes</h4>
@@ -608,19 +646,19 @@
                 </div>
             </div>
         </div> -->
-        <!-- VISITAS END -->
-    </div>
-    <!-- Footer End -->
+            <!-- VISITAS END -->
+        </div>
+        <!-- Footer End -->
 
-    <!-- Back to Top ✔️-->
-    <a href="#" id="backToTop2" class="back-to-top2">
-        <i class="bi bi-arrow-up"></i>
-      </a>
-      
-            
-    <!-- Backtop End -->
+        <!-- Back to Top ✔️-->
+        <a href="#" id="backToTop2" class="back-to-top2">
+            <i class="bi bi-arrow-up"></i>
+        </a>
 
-</main>
+
+        <!-- Backtop End -->
+
+    </main>
     <!-- Tempus Dominus -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet"
@@ -631,32 +669,32 @@
         src="https://cdn.jsdelivr.net/npm/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js"></script>
     <script src="https://kit.fontawesome.com/1c2cfa22fa.js" crossorigin="anonymous"></script>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/tempusdominus/js/moment.min.js"></script>
-        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker({
-                    format: 'L' // Este formato es para fecha, si necesitas fecha y hora puedes usar 'L LT'
-                });
-            }); 
-        </script>
-    
-        <!-- Whatsapp Script -->
-        <script src="/js/whatsapp.js"></script>
-        <!-- Whatsapp Script End -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker({
+                format: 'L' // Este formato es para fecha, si necesitas fecha y hora puedes usar 'L LT'
+            });
+        }); 
+    </script>
+
+    <!-- Whatsapp Script -->
+    <script src="/js/whatsapp.js"></script>
+    <!-- Whatsapp Script End -->
 
     <!-- Scroll Start -->
     <div class="scroll-container justify-content-center">
@@ -666,7 +704,7 @@
     </div>
     <!-- Scroll End -->
 
-        <script src="/js/scrollpill.js"></script>
+    <script src="/js/scrollpill.js"></script>
 
 </body>
 

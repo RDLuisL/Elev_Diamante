@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="/css/whatsapp.css">
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
+    <link rel="stylesheet" href="/css/modal.css">
 </head>
 
 <body>
@@ -140,8 +141,19 @@
     </div>
     <!-- Page Header End -->
 
+        <!-- Modal Start-->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p class="fs-5">Disculpa las molestias, esta vista no está disponible en este momento.</p>
+              <img class="modal-img" src="/img/en_construccion.jpg" alt="Elevador en construcción">
+              <button id="goHome">Volver al inicio</button>
+            </div>
+        </div>
+        <!-- Modal End -->
+
     <!-- Mantención de Ascensores Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -181,39 +193,8 @@
                 </div>
             </div>       
         </div>
-    </div>
+    </div> -->
     <!-- Mantención de Ascensores End -->
-
-    <!-- Mantención Preventiva Start -->
-    <div class="container-xxl py-5 bg-light" id="preventiva">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="feature-img">
-                        <img class="img-fluid" src="/img/mantencion/5.jpg" alt="">
-                        <img class="img-fluid" src="/img/mantencion/23.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">// Disponibilidad //</h4>
-                    <h1 class="display-5 mb-4">Lorem Ipsum Dolor</h1>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-
-                                <div class="ms-4">
-                                    <h4 class="text-justify-custom">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla consequatur iusto odio libero provident odit facere atque quisquam? Amet ullam inventore explicabo animi porro possimus dolorum sint itaque, reprehenderit officiis.</h4>
-                                    <h4 class="text-justify-custom">
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dignissimos repudiandae, repellendus, dolores vitae porro a nesciunt velit autem soluta, quasi cupiditate optio quod minima natus molestias incidunt aspernatur fugiat.</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Mantención Preventiva End -->
 
     <!-- Footer Start ✔️-->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
@@ -298,6 +279,7 @@
         <!-- Scroll End -->
     
             <script src="/js/scrollpill.js"></script>
+            <script src="js/modal.js"></script>
     
 </body>
 

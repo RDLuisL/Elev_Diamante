@@ -4,13 +4,13 @@
 <!-- Head ✔️-->
 <head>
     <meta charset="utf-8">
-    <title>Certificación - Elevadores Diamante</title>
+    <title>Cabinas - Elevadores Diamante</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imfavicon.ico" type="image/x-icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="/css/whatsapp.css">
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -94,7 +95,6 @@
     </div>
     <!-- Topbar End -->
 
-    
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-2 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
@@ -110,13 +110,14 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
                     <ul class="dropdown-menu">
-                        <li><a href="mantencion.html" class="dropdown-item">Mantención</a></li>
+                        <li><a href="normalizaciones.html" class="dropdown-item">Certificación</a></li>
                         <li><a href="Modernización.html" class="dropdown-item">Modernización</a></li>
                         <li><a href="control_acceso.html" class="dropdown-item">Control de Acceso</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a href="gallery.html" class="nav-link">Galería</a></li>
                 <li class="nav-item"><a href="faqs.html" class="nav-link">Preguntas <br> Frecuentes</a></li>
+                
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contáctanos</a></li>
                 <li class="nav-item"><a href="/juego/index.html" class="nav-link" target="_blank">El Juego</a></li>
             </ul>
@@ -125,71 +126,75 @@
     <!-- Navbar End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header-norm py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header-cabina py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown hero-text-shadow">Certificación</h1>
-            <h5 class="display-5 text-white animated slideInDown">Trabajamos para que tu elevador sea certificado</h5>
+            <h1 class="display-1 text-white animated slideInDown hero-text-shadow">Cabinas</h1>
             <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a style="text-decoration: none;" class="text-white active" href="#preventiva">PREVENTIVA</a></li>
+                    <li class="breadcrumb-item"><a style="text-decoration: none;" class="text-white active" href="#correctiva">CORRECTIVA</a></li>
+                    <li class="breadcrumb-item"><a style="text-decoration: none;" class="text-white" href="#emergencia">ATENCIÓN DE EMERGÉNCIA</a></li>
+                    <li class="breadcrumb-item"><a style="text-decoration: none;" class="text-white" href="#menores">REPARACIONES MENORES</a></li>
+                </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-    <!-- Normalizacion Start -->
-    <div class="container-xxl py-2">
+        <!-- Modal Start-->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p class="fs-5">Disculpa las molestias, esta vista no está disponible en este momento.</p>
+              <img class="modal-img" src="/img/en_construccion.jpg" alt="Elevador en construcción">
+              <button id="goHome">Volver al inicio</button>
+            </div>
+        </div>
+        <!-- Modal End -->
+
+    <!-- Mantención de Ascensores Start -->
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title" style="color: #0D6EFD !important">¡Aumenta la Seguridad y Evita Multas!</h4>
-                    <h1 class="display-5 mb-4">Adapta tus equipos a las normativas de seguridad y garantizar revisiones
-                        exitosas.</h1>
-                    <p class="mb-4 text-justify-custom">
-                        En nuestra empresa, comprendemos la importancia de adaptarnos a las leyes especiales en materia
-                        de seguridad que se han implementado recientemente. Estas normativas son de cumplimiento
-                        obligatorio tanto para las empresas proveedoras de servicios de elevadores como para los
-                        usuarios de estos equipos. La seguridad es nuestra prioridad, y por ello nos enfocamos en
-                        garantizar que todos los ascensores estén adecuadamente ajustados a estas disposiciones.
+                    <h4 class="section-title" id="elegirnos">// NUESTROS CABINAS //</h4>
+                    <h1 class="display-5 mb-4">Cabinas</h1>
+                    <p class="mb-4 text-justify-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officia, architecto reprehenderit assumenda ullam quasi neque odit id eaque illum, a quod numquam repellendus ex. Magni numquam voluptatum eveniet quas.
                     </p>
-                    <p class="mb-4 text-justify-custom">
-                        Muchos de los ascensores instalados no cumplen con las nuevas normativas de seguridad, lo cual
-                        puede representar un riesgo. Es fundamental llevar a cabo un proceso de normalización que
-                        permita adecuar estos equipos a los estándares vigentes, mejorando así la seguridad de todos los
-                        usuarios. Nuestro servicio de normalización se encarga de actualizar y adaptar los sistemas de
-                        los ascensores para que cumplan con las exigencias legales y técnicas actuales.
-                    </p>
-                    <p>
-
-                    </p>
-                    <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 icon-size" src="img/icons/thumb_icon.png" alt="Icon">
+                                
                                 <div class="ms-4">
-                                    <h3>Cumplimiento obligatorio de disposiciones de seguridad</h3>
+                                    <h3>Elevadores Diamante provee de repuestos:</h3>
+                                    <ul class="fs-4">
+                                        <li>
+                                            Lorem ipsum dolor sit.
+                                        </li>
+                                        <li>
+                                            Libero, vel nesciunt commodi labore.
+                                        </li>
+                                        <li>
+                                            Amet consectetur adipisicing elit
+                                        </li>
+                                        <li>
+                                            Iste consequuntur perspiciatis eos omnis similique
+                                        </li>
+                                    </ul>
+                                    <h3 class="text-justify-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, commodi impedit cupiditate provident aliquid dicta quaerat sed consequatur illum possimus dolorum enim aliquam modi, sit neque tempore, et eveniet? Repudiandae.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0 icon-size" src="img/icons/company_icon.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Para cumplir la certificación necesitas una compañia de mantención de elevadores con un contrato de servicio</h3>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="img/norm1_357x370.png" alt="">
-                        <img class="img-fluid" src="img/norm2_357x370.png" alt="">
+                        <img class="img-fluid" src="/img/mantencion/15.png" alt="">
+                        <img class="img-fluid" src="/img/mantencion/30.png" alt="">
                     </div>
                 </div>
-            </div>
+            </div>       
         </div>
-    </div>
-    <!-- Normalizacion End -->
+    </div> -->
+    <!-- Mantención de Ascensores End -->
 
     <!-- Footer Start ✔️-->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
@@ -274,6 +279,7 @@
         <!-- Scroll End -->
     
             <script src="/js/scrollpill.js"></script>
+            <script src="js/modal.js"></script>
     
 </body>
 
