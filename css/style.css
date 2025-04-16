@@ -479,6 +479,16 @@ h6,
     background-size: cover;
 }
 
+.page-header-re-ingenieria {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/re-ingenieria_1920x400.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-repuestos {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/repuestos_1920x400.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .page-header-nosotros {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/home_nosotros_1920x400.png) center center no-repeat;
     background-size: cover;
