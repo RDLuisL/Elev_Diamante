@@ -4,8 +4,8 @@
 
   .toggle-text {
     border: none;
-    background-color: #f8f9fa;
-    color: #007bff; /* o el color que uses para enlaces */
+    background-color: #f8f9fa !important;
+    color: #ED1411 !important; /* o el color que uses para enlaces */
     padding: 0;
     margin: 0;
 
