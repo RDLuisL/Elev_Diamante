@@ -1,0 +1,28 @@
+.d-none {
+    display: none;
+  }
+
+  .toggle-text {
+    border: none;
+    background-color: #f8f9fa;
+    color: #007bff; /* o el color que uses para enlaces */
+    padding: 0;
+    margin: 0;
+
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .toggle-text:hover,
+  .toggle-text:focus,
+  .toggle-text:active {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  
