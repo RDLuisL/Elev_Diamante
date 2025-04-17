@@ -9,6 +9,8 @@
 body { /* O el selector del elemento al que quieres aplicar el fondo */
     position: relative; /* Necesario para posicionar el pseudo-elemento */
     /* Otros estilos que ya tengas para el body */
+    margin: 0;
+  padding: 0;
   }
   
   body::before { /* O usa ::after si lo prefieres */
@@ -22,6 +24,15 @@ body { /* O el selector del elemento al que quieres aplicar el fondo */
     background-size: fit;
     opacity: 0.35; /* Ajusta este valor para la transparencia del fondo */
     z-index: -1; /* Asegura que el fondo esté detrás del contenido */
+  }
+
+  /* Media query para pantallas táctiles: desactiva el efecto hover */
+  @media (hover: none) and (pointer: coarse) {
+    .boton:hover {
+      background-color: initial;
+      color: inherit;
+      pointer-events: none;
+    }
   }
 
 h1,
@@ -282,6 +293,9 @@ h6,
 .logo-footer {
     height: 25px;
 }
+
+.footer {
+    width: 100%;}
 
 /*** Navbar ***/
 .diamond-logo{

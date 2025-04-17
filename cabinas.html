@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="/css/whatsapp2.css">
     <link rel="stylesheet" href="/css/logo_slider.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/elev-buttons.css">
+    <link rel="stylesheet" href="css/counter.css">
 </head>
 
 <body>
@@ -141,16 +143,28 @@
     </div>
     <!-- Page Header End -->
 
-        <!-- Modal Start-->
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p class="fs-5">Disculpa las molestias, esta vista no está disponible en este momento.</p>
-              <img class="modal-img" src="/img/en_construccion.jpg" alt="Elevador en construcción">
-              <button id="goHome">Volver al inicio</button>
+            <!-- Back to Top ✔️-->
+            <a href="#" id="backToTop2" class="back-to-top2">
+                <i class="bi bi-arrow-up"></i>
+            </a>
+            <!-- Backtop End -->
+
+    <!-- Modal Start-->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="fs-5">Disculpa las molestias, esta vista no está disponible en este momento.</p>
+            <img class="modal-img" src="/img/en_construccion.jpg" alt="Elevador en construcción">
+            <div class="buttons">
+                <div class="btn-container bottom">
+                    <a href="nosotros.html"><button class="btn-pill" data-set-floor="0"
+                            style="font-size: 25px;"><strong>Ir al inicio</strong></button></a>
+                </div>
             </div>
         </div>
-        <!-- Modal End -->
+        </div>
+    </div>
+    <!-- Modal End -->
 
     <!-- Mantención de Ascensores Start -->
     <!-- <div class="container-xxl py-5">
@@ -196,62 +210,60 @@
     </div> -->
     <!-- Mantención de Ascensores End -->
 
-    <!-- Footer Start ✔️-->
-    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Dirección:</h3>
-                    <p class="mb-2 text-white"><img src="img/icons/place_icon.png" class="logo-footer me-3"></i>AV PROVIDENCIA N°
-                        1208, DEPTO 1603 </p>
-                    <p class="mb-2 text-white"><img src="img/icons/phone_icon.png" class="logo-footer me-4">+56 9 5521 2659</p>
-                    <p class="mb-2 text-white"><img src="img/icons/email_icon.png" class="logo-footer me-3">info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+        <!-- Footer Start ✔️-->
+        <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Dirección:</h3>
+                        <p class="mb-2 text-white"><img src="img/icons/place_icon.png" class="logo-footer me-3"></i>AV
+                            PROVIDENCIA N°
+                            1208, DEPTO 1603 </p>
+                        <p class="mb-2 text-white"><img src="img/icons/phone_icon.png" class="logo-footer me-4">+56 9
+                            5521 2659</p>
+                        <p class="mb-2 text-white"><img src="img/icons/email_icon.png"
+                                class="logo-footer me-3">info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-outline-body me-0" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
+                    <div class="col-lg-2 col-md-6">
+                        <p style="color: white">Versión 8.5</p>
+                        <p style="color: white;">por:</p>
+                        <a href="http://www.luislunatech.com" target="_blank">
+                            <img src="img/lluna_sign_white.png" style="width: 150px; margin-top:px;" alt="">
+                        </a>
+                    </div>
+                    <div class="panel-wrapper">
+                        <!-- Imagen de fondo del panel -->
+                        <img class="background-image" src="/img/tablero_visitantes.png" alt="Tablero visitantes">
+                      
+                        <!-- SVG Flechas superpuestas -->                        
+                        <svg class="svg-flechas" viewBox="0 0 595.28 841.89" xmlns="http://www.w3.org/2000/svg">
+                           <path fill="#1A9CC5" class="flecha-shadow flecha-parpadea" d="M66.979,426.654c-2.038,1.634-3.676,5.379-6.685,3.379c-2.358-1.566-2.055-5.223-1.563-8.021c0.356-2.027,0.8-58.466,0.384-61.454c-0.011-2.347-0.021-4.693-0.032-7.04c1.068-2.209,93.134-93.818,100.265-99.694c0.571,0.232,85.504,85.313,99.874,99.677c-0.049,1.874-0.236,52.85-0.28,76.462c-2.141,1.153-3.342-0.336-4.786-1.545c-3.351-2.804-52.473-53.603-59.949-59.575c-1.617,1.102-0.792,2.757-0.81,4.132c-0.092,7.357-0.009,147.004,0.011,209.469l-0.068,0.098c-4.523-0.027-49.427-0.271-67.357-0.365c-0.063-2.189-0.099-211.59-0.242-213.143c-0.112-1.211-0.873-1.551-1.971-0.937C119.625,372.564,67.098,426.56,66.979,426.654z"/>
+                          
+                          <path fill="#1A9CC5" opacity="0.5" d="M527.812,413.507c2.038-1.633,3.676-5.378,6.685-3.378c2.359,1.567,2.055,5.223,1.563,8.022c-0.356,2.027-0.799,58.465-0.384,61.454c0.011,2.347,0.022,4.693,0.032,7.04c-1.068,2.209-93.134,93.817-100.265,99.693c-0.571-0.231-85.505-85.313-99.874-99.676c0.049-1.875,0.236-52.85,0.279-76.464c2.141-1.152,3.342,0.337,4.786,1.545c3.351,2.804,52.474,53.602,59.948,59.576c1.617-1.103,0.793-2.757,0.811-4.132c0.092-7.357,0.01-147.004-0.011-209.469l0.067-0.097c4.523,0.026,49.427,0.271,67.357,0.365c0.063,2.189,0.099,211.589,0.242,213.142c0.111,1.211,0.872,1.551,1.971,0.938C475.166,467.598,527.693,413.603,527.812,413.507z"/>
+                        </svg>
+                        <!-- Contador de Visitas -->
+                        <div class="visit-counter">
+                            <div class="visit-count" id="visit-count"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                        <img src="img/logos/SEC_logo.png" class="logo-sec">
+
+                        <img src="img/logos/MINVU_logo.png" class="logo-minvu">
+                    </div>
+                    <script src="/js/counter-visits.js" defer></script>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Servicios</h3>
-                    <a class="btn btn-link" href="">Mantención</a>
-                    <a class="btn btn-link" href="">Normalización</a>
-                    <a class="btn btn-link" href="">Modernización</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Productos</h3>
-                    <a class="btn btn-link" href="">Trafic</a>
-                    <a class="btn btn-link" href="">CicloTrafic</a>
-                    <a class="btn btn-link" href="">TraficDrive</a>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                    <img src="img/logos/SEC_logo.png" class="logo-sec">
-                    
-                    <img src="img/logos/MINVU_logo.png" class="logo-minvu">
-                </div>
-                <p style="color: white" >Versión 7.1</p>
             </div>
         </div>
-        <!-- VISITAS START -->
-        <!-- <div class="container-fluid copyright">
-            <div class="container">
-                <div class="row">
-                    <h4>Numero de visitantes</h4>
-                    <img src="https://www.web-counter.net/count_20091204.php?c=0pvsdANLiY4" style="border: 0; padding: 0; margin: 0; width: 150px;" alt="contador de visitas">
-                    <img src="https://www.web-counter.net/count_20091204.php?c=0pCkoQaeL46" style="border: 0; padding: 0; margin: 0; width: 100px; height: 40px;" alt="contador de visitas">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">elevadoresdiamante.cl</a>, todos los derechos reservados<sup>®</sup>.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        Designed By <a href="https://github.com/RDLuisL">Luis Luna</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- VISITAS END -->
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
