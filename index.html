@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -546,8 +546,7 @@
                     <!-- Formulario -->
                     <div class="col-lg-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
                         <div data-form-type="formoid">
-                            <form class="block mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form" onsubmit="setTimeout(() => { window.location.href = 'summit.html'; }, 1000)">
-                                <input type="hidden" name="email" data-form-email="true" value="cTau...">
+                            <form id="formEmail">
                                 <div class="row g-3 mt-4">
                                     <div class="col-12 col-sm-6">
                                         <input type="text" name="name" class="form-control" placeholder="Tú Nombre" style="height: 55px;" required>
@@ -633,6 +632,8 @@
                             </form>
                         </div>
                     </div>
+                    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                    <script src="/js/emailjs.js"></script>
                     <!-- Formulario End -->
                 </div>
             </div>
@@ -702,6 +703,7 @@
                 </div>
             </div>
         </div>
+        <script src="/js/counter-visits.js" defer></script>
         <!-- Footer End -->
 
         <!-- Back to Top ✔️-->
@@ -712,7 +714,7 @@
 
     </main>
 
-    <script src="/js/counter-visits.js" defer></script>
+  
     <!-- Tempus Dominus -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet"

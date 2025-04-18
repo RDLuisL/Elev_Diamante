@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <!-- Head ✔️-->
 <head>
@@ -217,88 +217,94 @@
           </div>
   
           <!-- Formulario -->
-          <div class="row g-3 mt-4">
-            <div class="col-12 col-sm-6">
-              <input type="text" class="form-control" placeholder="Tú Nombre" style="height: 55px;">
+          <div class="col-lg-12 col-12 wow fadeInUp" data-wow-delay="0.5s">
+            <div data-form-type="formoid">
+                <form id="formEmail">
+                    <div class="row g-3 mt-4">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="name" class="form-control" placeholder="Tú Nombre" style="height: 55px;" required>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Tú Email" style="height: 55px;" required>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="phone" class="form-control" placeholder="Tú Teléfono" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <select class="form-select" name="servicio" style="height: 55px;" required>
+                                <option selected disabled>Elije un Servicio</option>
+                                <option value="Mantención">Mantención</option>
+                                <option value="Modernización">Modernización</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <select class="form-select" name="comuna" style="height: 55px;" required>
+                                <option selected disabled>Elije una Comuna</option>
+                                <option value="Cerrillos">Cerrillos</option>
+                                <option value="Cerro Navia">Cerro Navia</option>
+                                <option value="Conchalí">Conchalí</option>
+                                <option value="El Bosque">El Bosque</option>
+                                <option value="Estación Central">Estación Central</option>
+                                <option value="Huechuraba">Huechuraba</option>
+                                <option value="Independencia">Independencia</option>
+                                <option value="La Cisterna">La Cisterna</option>
+                                <option value="La Florida">La Florida</option>
+                                <option value="La Granja">La Granja</option>
+                                <option value="La Pintana">La Pintana</option>
+                                <option value="La Reina">La Reina</option>
+                                <option value="Las Condes">Las Condes</option>
+                                <option value="Lo Barnechea">Lo Barnechea</option>
+                                <option value="Lo Espejo">Lo Espejo</option>
+                                <option value="Lo Prado">Lo Prado</option>
+                                <option value="Macul">Macul</option>
+                                <option value="Maipú">Maipú</option>
+                                <option value="Ñuñoa">Ñuñoa</option>
+                                <option value="Pedro Aguirre Cerda">Pedro Aguirre Cerda</option>
+                                <option value="Peñalolén">Peñalolén</option>
+                                <option value="Providencia">Providencia</option>
+                                <option value="Pudahuel">Pudahuel</option>
+                                <option value="Quilicura">Quilicura</option>
+                                <option value="Quinta Normal">Quinta Normal</option>
+                                <option value="Recoleta">Recoleta</option>
+                                <option value="Renca">Renca</option>
+                                <option value="San Joaquín">San Joaquín</option>
+                                <option value="San Miguel">San Miguel</option>
+                                <option value="San Ramón">San Ramón</option>
+                                <option value="Santiago">Santiago</option>
+                                <option value="Vitacura">Vitacura</option>
+                                <option value="Puente Alto">Puente Alto</option>
+                                <option value="San Bernardo">San Bernardo</option>
+                                <option value="Calera de Tango">Calera de Tango</option>
+                                <option value="Buin">Buin</option>
+                                <option value="Paine">Paine</option>
+                                <option value="Pirque">Pirque</option>
+                                <option value="San José de Maipo">San José de Maipo</option>
+                                <option value="Talagante">Talagante</option>
+                                <option value="El Monte">El Monte</option>
+                                <option value="Isla de Maipo">Isla de Maipo</option>
+                                <option value="Padre Hurtado">Padre Hurtado</option>
+                                <option value="Peñaflor">Peñaflor</option>
+                                <option value="Melipilla">Melipilla</option>
+                                <option value="Alhué">Alhué</option>
+                                <option value="Curacaví">Curacaví</option>
+                                <option value="María Pinto">María Pinto</option>
+                                <option value="San Pedro">San Pedro</option>
+                                <option value="Colina">Colina</option>
+                                <option value="Lampa">Lampa</option>
+                                <option value="Tiltil">Tiltil</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn-pill" type="submit" style="font-size: 25px;"><strong>Envíalo</strong></button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="col-12 col-sm-6">
-              <input type="email" class="form-control" placeholder="Tú Email" style="height: 55px;">
-            </div>
-            <div class="col-12 col-sm-6">
-              <input type="text" class="form-control" placeholder="Tú Teléfono" style="height: 55px;">
-            </div>
-            <div class="col-12 col-sm-6">
-              <select class="form-select" style="height: 55px;">
-                <option selected>Elije un Servicio</option>
-                <option value="1">Mantención</option>
-                <option value="2">Modernización</option>
-                <option value="3">Otro</option>
-              </select>
-            </div>
-            <div class="col-12 col-sm-6">
-              <select class="form-select" style="height: 55px;">
-                <option selected>Elije una Comuna</option>
-                <option value="1">Cerrillos</option>
-                <option value="2">Cerro Navia</option>
-                <option value="3">Conchalí</option>
-                <option value="4">El Bosque</option>
-                <option value="5">Estación Central</option>
-                <option value="6">Huechuraba</option>
-                <option value="7">Independencia</option>
-                <option value="8">La Cisterna</option>
-                <option value="9">La Florida</option>
-                <option value="10">La Granja</option>
-                <option value="11">La Pintana</option>
-                <option value="12">La Reina</option>
-                <option value="13">Las Condes</option>
-                <option value="14">Lo Barnechea</option>
-                <option value="15">Lo Espejo</option>
-                <option value="16">Lo Prado</option>
-                <option value="17">Macul</option>
-                <option value="18">Maipú</option>
-                <option value="19">Ñuñoa</option>
-                <option value="20">Pedro Aguirre Cerda</option>
-                <option value="21">Peñalolén</option>
-                <option value="22">Providencia</option>
-                <option value="23">Pudahuel</option>
-                <option value="24">Quilicura</option>
-                <option value="25">Quinta Normal</option>
-                <option value="26">Recoleta</option>
-                <option value="27">Renca</option>
-                <option value="28">San Joaquín</option>
-                <option value="29">San Miguel</option>
-                <option value="30">San Ramón</option>
-                <option value="31">Santiago</option>
-                <option value="32">Vitacura</option>
-                <option value="33">Puente Alto</option>
-                <option value="34">San Bernardo</option>
-                <option value="35">Calera de Tango</option>
-                <option value="36">Buin</option>
-                <option value="37">Paine</option>
-                <option value="38">Pirque</option>
-                <option value="39">San José de Maipo</option>
-                <option value="40">Talagante</option>
-                <option value="41">El Monte</option>
-                <option value="42">Isla de Maipo</option>
-                <option value="43">Padre Hurtado</option>
-                <option value="44">Peñaflor</option>
-                <option value="45">Melipilla</option>
-                <option value="46">Alhué</option>
-                <option value="47">Curacaví</option>
-                <option value="48">María Pinto</option>
-                <option value="49">San Pedro</option>
-                <option value="50">Colina</option>
-                <option value="51">Lampa</option>
-                <option value="52">Tiltil</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-            </div>
-            <div class="col-12">
-              <button class="btn-pill" data-set-floor="0" style="font-size: 25px;"  type="submit"><strong>Envíalo</strong></button>
-          </div>
-          </div>
+        </div>
         </div>
   
         <!-- Google Map -->
@@ -381,7 +387,8 @@
               </div>
           </div>
     </div>
-    <script src="/js/counter-visits.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="/js/emailjs.js"></script>
     <!-- Footer End -->
 
     <!-- Back to Top ✔️-->

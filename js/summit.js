@@ -1,18 +1,13 @@
-  document.addEventListener('DOMContentLoaded', function () {
-    const formAlert = document.querySelector('[data-form-alert]');
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        if (!mutation.target.hasAttribute('hidden')) {
-          // Esperar un segundo antes de redirigir
-          setTimeout(() => {
-            window.location.href = 'summit.html';
-          }, 1000);
-        }
-      });
-    });
+  document.getElementById('formEmail').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-    if (formAlert) {
-      observer.observe(formAlert, { attributes: true, attributeFilter: ['hidden'] });
-    }
+    emailjs.send("service_k5jtzoe","template_ypfiuci");
+      .then(function() {
+        alert('Mensaje enviado correctamente ✅');
+        window.location.href = 'https://www.elevadoresdiamante.cl/summit.html'; // Redirección tras envío
+      }, function(error) {
+        alert('Hubo un error 😥: ' + JSON.stringify(error));
+      });
   });
+
 
