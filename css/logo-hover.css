@@ -1,0 +1,29 @@
+.logo-hover {
+    position: relative;
+    height: auto;
+  }
+  
+  .logo-img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .logo-img.hover {
+    opacity: 0;
+  }
+  
+  .logo-hover:hover .logo-img.default {
+    opacity: 0;
+  }
+  
+  .logo-hover:hover .logo-img.hover {
+    opacity: 1;
+  }
+
+  @media (max-width: 700px) {
+    .logo-img {
+      right: 0px; /* ❌ elimina el margen derecho cuando sea responsivo */
+    }
+  }

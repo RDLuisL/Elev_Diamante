@@ -1,0 +1,10 @@
+/* Estilo por defecto del ícono */
+.logo-link i {
+    color: white; /* Azul oficial LinkedIn */
+    transition: color 0.3s ease;
+  }
+  
+  /* Color al hacer hover */
+  .logo-link:hover i {
+    color: #08d1ce; /* Tu nuevo tono de azul, por ejemplo */
+  }
